@@ -11,9 +11,9 @@ int num3 = -25;
 int average = 0;
 //executable statements
 average = (num1 + num2 + num3 ) / 3 ;
-cout<<"First Number: "<<num1;
-cout<<"Second Number: "<<num2;
-cout<<"Third Number: "<<num3;
+cout<<"First Number: "<<num1<<endl;
+cout<<"Second Number: "<<num2<<endl;
+cout<<"Third Number: "<<num3<<endl;
 cout<<"Average of three number isis: "<<average<<endl;
 //return 0;
 return 0;

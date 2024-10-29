@@ -3,6 +3,7 @@ Status: FAILED!
 Check: 1
 Test: Correct variable values printed to screen
 Reason: Unable to find '['(125)(?!\\d)', '(28)(?!\\d)', '(\\-25)(?!\\d)', '(42)(?!\\d)']' in the program's output.
+Average of three num is: 42
 .
 Error : AssertionError - Unable to find (125)(?!\d) in the program's output.
-Timestamp: 2024-10-29 04:15:07.364139
+Timestamp: 2024-10-29 04:40:10.013795

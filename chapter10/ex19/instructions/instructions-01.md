@@ -1,0 +1,1 @@
+**Task #01:** The program is able to initialize `finance` objects

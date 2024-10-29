@@ -1,0 +1,1 @@
+**Task #03:** `temporary` object's setter and getter for the member variable `description` work as expected

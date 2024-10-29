@@ -1,0 +1,1 @@
+**Task #02:** `PI` declared as a constant.

@@ -1,0 +1,1 @@
+**Task #04:** `houseType`'s getter and setter for the member variable `numOfBathrooms` work as expected

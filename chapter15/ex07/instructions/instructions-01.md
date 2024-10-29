@@ -1,0 +1,1 @@
+**Task #01:** Determined the smallest and largest element

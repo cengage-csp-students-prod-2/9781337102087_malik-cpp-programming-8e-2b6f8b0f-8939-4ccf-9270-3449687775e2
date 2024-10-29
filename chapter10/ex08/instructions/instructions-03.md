@@ -1,0 +1,1 @@
+**Task #03:** Implemented the required methods of the object `dayType`

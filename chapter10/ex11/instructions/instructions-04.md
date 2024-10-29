@@ -1,0 +1,1 @@
+**Task #04:** `personType` getters and setters work as expected

@@ -1,0 +1,1 @@
+**Task #02:** `finance`'s `totalAccumulated` member function works as expected

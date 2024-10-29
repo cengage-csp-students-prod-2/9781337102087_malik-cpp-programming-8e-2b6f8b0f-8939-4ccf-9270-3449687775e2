@@ -1,0 +1,1 @@
+**Task #05:** `lineType` determines if a line is horizontal

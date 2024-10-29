@@ -1,0 +1,1 @@
+**Task #05:** Methods `isEmptyQueue` and `isFullQueue` work correctly

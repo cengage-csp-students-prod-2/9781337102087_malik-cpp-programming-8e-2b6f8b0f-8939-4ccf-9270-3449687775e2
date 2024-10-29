@@ -1,0 +1,1 @@
+**Task #03:** `lineType` indicates if a line is vertical

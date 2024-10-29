@@ -1,0 +1,1 @@
+**Task #05:** Output the sum of the square of the odd numbers between `firstNum` and `secondNum`

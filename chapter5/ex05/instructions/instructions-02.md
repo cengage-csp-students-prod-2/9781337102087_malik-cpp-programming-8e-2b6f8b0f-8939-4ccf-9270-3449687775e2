@@ -1,0 +1,1 @@
+**Task #02:** Correct output when second number is smaller.

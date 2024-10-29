@@ -1,0 +1,1 @@
+**Task #01:** The program can initialize a `lineType` object without error

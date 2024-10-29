@@ -1,0 +1,1 @@
+**Task #02:** `swimmingPool`'s `addWater` function adds water to the pool over time

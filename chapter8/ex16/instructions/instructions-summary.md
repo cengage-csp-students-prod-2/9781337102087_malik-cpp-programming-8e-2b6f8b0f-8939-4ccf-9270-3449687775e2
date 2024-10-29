@@ -1,0 +1,4 @@
+## Instructions
+** (Pick 5 Lotto)**| Write a program to simulate a pick-5 lottery game. Your program should generate and store 5 distinct numbers between 1 and 9 (inclusive) into an array. The program prompts the user to enter five distinct between 1 and 9 and stores the number into another array. The program then compares and determines whether the two arrays are identical. If the two arrays are identical, then the user wins the game; otherwise the program outputs the number of matching digits and their position in the array.
+
+Your program must contain a function that randomly generates the pick-5 lottery numbers. Also, in your program, include the function sequential search to determine if a lottery number generated has already been generated. 

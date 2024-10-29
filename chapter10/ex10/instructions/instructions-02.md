@@ -1,0 +1,1 @@
+**Task #02:** `clockType` returns the time elapsed

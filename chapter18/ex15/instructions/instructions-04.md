@@ -1,0 +1,1 @@
+**Task #04:** Correctly identifies text that is not a palindrome

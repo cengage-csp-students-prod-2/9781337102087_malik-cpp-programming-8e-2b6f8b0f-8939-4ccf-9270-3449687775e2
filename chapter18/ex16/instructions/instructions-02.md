@@ -1,0 +1,1 @@
+**Task #02:** `count` attribute keeps correct count

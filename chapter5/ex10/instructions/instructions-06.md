@@ -1,0 +1,1 @@
+**Task #06:** Output all uppercase letters

@@ -1,0 +1,1 @@
+**Task #04:** Output the numbers and their squares between 1 and 10.

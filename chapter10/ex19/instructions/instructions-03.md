@@ -1,0 +1,1 @@
+**Task #03:** `finance`'s `periodicPaymentToAccumulateASum` member function works as expected

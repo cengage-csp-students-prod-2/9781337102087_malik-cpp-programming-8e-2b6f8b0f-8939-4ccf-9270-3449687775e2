@@ -1,0 +1,1 @@
+**Task #04:** `memberType`'s `getTotalAmountSpent` returns the total amount spent

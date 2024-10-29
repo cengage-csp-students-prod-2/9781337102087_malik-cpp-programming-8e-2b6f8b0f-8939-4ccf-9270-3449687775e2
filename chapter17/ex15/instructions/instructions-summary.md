@@ -1,0 +1,2 @@
+## Instructions ##
+Complete the design and implementation of the DVD store program. In other words, write a program that uses the classes designed in the DVD Store programming example and in *Programming Exercise 14* to make a DVD store operational.

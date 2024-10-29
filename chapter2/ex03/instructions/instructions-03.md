@@ -1,0 +1,1 @@
+**Task #03:** All variables declared of type `int`

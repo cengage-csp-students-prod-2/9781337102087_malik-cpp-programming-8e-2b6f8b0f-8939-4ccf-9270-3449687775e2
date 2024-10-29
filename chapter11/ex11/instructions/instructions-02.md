@@ -1,0 +1,1 @@
+**Task #02:** The `billType` works as expected

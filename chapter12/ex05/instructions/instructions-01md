@@ -1,0 +1,4 @@
+## Instructions ##
+**bankAccount**: Every bank account has an account number, the name of the owner, and a balance. Therefore, instance variables such as **name**, **accountNumber**, and **balance** should be declared in the abstract `class` **bankAccount**. Some operations common to all types of accounts are retrieve account owner’s name, account number, and account balance; make deposits; withdraw money; and create monthly statements. So include functions to implement these operations. Some of these functions will be pure virtual.
+
+*Note: This class is abstract, you cannot instantiate an object of this class. *

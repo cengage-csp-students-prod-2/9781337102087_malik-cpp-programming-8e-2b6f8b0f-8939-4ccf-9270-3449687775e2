@@ -1,0 +1,1 @@
+**Task #01:** Output amount donated to each charity

@@ -1,0 +1,1 @@
+**Task #04:** `counterType`'s `decrementCounter` decrements the value of counter

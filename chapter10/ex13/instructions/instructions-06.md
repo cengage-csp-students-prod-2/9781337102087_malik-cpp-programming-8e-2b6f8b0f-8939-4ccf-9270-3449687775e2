@@ -1,0 +1,1 @@
+**Task #06:** `memberType`'s `resetbooksBoughtAndAmount` resets the corresponding member variables to **0**

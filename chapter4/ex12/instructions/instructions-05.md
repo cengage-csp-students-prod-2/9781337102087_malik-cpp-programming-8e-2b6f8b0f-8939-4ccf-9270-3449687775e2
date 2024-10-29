@@ -1,0 +1,1 @@
+**Task #05:** Less than 20% of the bill was paid diplayed where applicable.

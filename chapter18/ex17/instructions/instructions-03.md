@@ -1,0 +1,1 @@
+**Task #03:** Methods `addQueue`,`deleteQueue`,`front`,`back` work correctly

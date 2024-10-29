@@ -1,0 +1,1 @@
+**Task #04:** Write C++ statements that declare the following variables: num1, num2, and newNum of type int; name of type string; and hoursWorked and wages of type double.

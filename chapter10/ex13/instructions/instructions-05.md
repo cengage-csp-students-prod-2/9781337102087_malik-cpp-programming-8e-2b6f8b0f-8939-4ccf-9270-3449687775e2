@@ -1,0 +1,1 @@
+**Task #05:** `memberType`'s `purchaseBook` returns the total amount spent plus the amount of the new purchase

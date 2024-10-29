@@ -1,0 +1,1 @@
+**Task #06:** `swimmingPool`'s `waterNeededToFillThePool` function returns the amount of water needed to fill the pool

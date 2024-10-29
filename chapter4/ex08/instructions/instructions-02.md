@@ -1,0 +1,1 @@
+**Task #02:** Correct output for divide by 0. Message contains the word error.

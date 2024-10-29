@@ -1,0 +1,1 @@
+**Task #03:** Write C++ statements that declare and initialize the following named constants: SECRET of type int that is initialized to 11 and RATE of type double that is initialized to 12.50.

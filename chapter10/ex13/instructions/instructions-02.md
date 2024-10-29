@@ -1,0 +1,1 @@
+**Task #02:** `memberType`'s `isMemberID` indicates which member object is assigned the provided ID

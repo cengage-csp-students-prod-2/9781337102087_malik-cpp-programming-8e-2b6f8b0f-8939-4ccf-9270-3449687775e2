@@ -1,0 +1,1 @@
+**Task #05:** `temporary` object's setter and getter for the member variable `second` work as expected

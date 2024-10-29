@@ -1,0 +1,1 @@
+**Task #03:** Overload the operator `||`, as a member function, so that it returns **true** if two lines are parallel; **false** otherwise and overload the operator `&&`, as a member function, so that it returns **true** if two lines are perpendicular; **false** otherwise.

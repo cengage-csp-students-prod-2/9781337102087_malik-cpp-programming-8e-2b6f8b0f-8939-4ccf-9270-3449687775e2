@@ -1,0 +1,1 @@
+**Task #03:** `memberType`'s `getBooksPurchased` returns the number of books purchased

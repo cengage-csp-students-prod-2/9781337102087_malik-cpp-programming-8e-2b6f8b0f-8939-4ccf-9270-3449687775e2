@@ -1,0 +1,1 @@
+**Task #02:** `houseType`'s getter and setter for the member variable `style` work as expected

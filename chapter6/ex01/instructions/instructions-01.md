@@ -1,0 +1,1 @@
+**Task #01:** Uses `isPalindrome' with the required string arguments

@@ -1,0 +1,8 @@
+## Instructions
+_Chapter 10_ defined the `class circleType` to implement the basic properties of a circle. (Add the function `print` to this class to output the radius, area, and circumference of a circle.) Now every cylinder has a base and height, where the base is a circle. 
+
+Design a `class cylinderType` that can capture the properties of a cylinder and perform the usual operations on the cylinder. Derive this class from the `class circleType` designed in _Chapter 10_. 
+
+Some of the operations that can be performed on a cylinder are as follows: calculate and print the volume, calculate and print the surface area, set the height, set the radius of the base, and set the center of the base. 
+
+Also, write a program to test various operations on a cylinder. Assume the value of `$\pi$` to be **3.14159**.

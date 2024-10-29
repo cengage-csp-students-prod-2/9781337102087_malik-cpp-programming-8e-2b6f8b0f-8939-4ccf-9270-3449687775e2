@@ -1,0 +1,1 @@
+**Task #01:** Discounts stored as constants.

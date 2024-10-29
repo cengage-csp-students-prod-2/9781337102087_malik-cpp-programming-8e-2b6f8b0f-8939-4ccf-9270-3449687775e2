@@ -1,0 +1,1 @@
+**Task #06:** `houseType`'s getter and setter for the member variable `yearBuilt` work as expected

@@ -1,0 +1,1 @@
+**Task #09:** Write a C++ statement(s) that outputs the values of num1 and num2, indicating which is num1 and which is num2. For example, if num1 is 8 and num2 is 5, then the output is: ```The value of num1 = 8 and the value of num2 = 5.```

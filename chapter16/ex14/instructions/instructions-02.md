@@ -1,0 +1,1 @@
+**Task #02:** Included a `vector` object

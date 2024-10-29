@@ -1,0 +1,1 @@
+**Task #02:** The program handles nonexistent input file

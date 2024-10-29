@@ -1,0 +1,1 @@
+**Task #01:** All methods declared in *queueLinked.h* are tested in *main.cpp*

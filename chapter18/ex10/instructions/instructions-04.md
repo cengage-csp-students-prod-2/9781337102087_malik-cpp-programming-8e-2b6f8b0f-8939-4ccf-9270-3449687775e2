@@ -1,0 +1,1 @@
+**Task #04:** Public method `precedence` works correctly

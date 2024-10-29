@@ -1,0 +1,1 @@
+**Task #08:** Write a C++ statement that multiplies the value of the named constant RATE with the value of hoursWorked and then stores the result into the variable wages.

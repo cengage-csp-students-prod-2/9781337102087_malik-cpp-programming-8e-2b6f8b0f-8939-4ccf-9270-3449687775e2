@@ -1,0 +1,1 @@
+**Task #02:** `isPalindrome` works as expected

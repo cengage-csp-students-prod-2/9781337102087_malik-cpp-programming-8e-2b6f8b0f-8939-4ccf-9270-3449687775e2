@@ -1,0 +1,1 @@
+**Task #04:** Open *inData.txt* and *outData.txt*.

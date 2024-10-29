@@ -1,0 +1,1 @@
+**Task #07:** `houseType`'s getter and setter for the member variable `finishedSquareFootage` work as expected

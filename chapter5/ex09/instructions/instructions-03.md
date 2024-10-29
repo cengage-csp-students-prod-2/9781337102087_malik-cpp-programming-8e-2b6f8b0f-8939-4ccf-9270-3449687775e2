@@ -1,0 +1,1 @@
+**Task #03:** Output sum of the numbers between `firstNum` and `secondNum`.

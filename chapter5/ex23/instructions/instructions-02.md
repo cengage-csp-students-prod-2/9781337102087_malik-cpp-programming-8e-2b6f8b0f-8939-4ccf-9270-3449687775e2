@@ -1,0 +1,1 @@
+**Task #02:** Variables declared correctly

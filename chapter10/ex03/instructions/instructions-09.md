@@ -1,0 +1,1 @@
+**Task #09:** `houseType`'s getter and setter for the member variable `tax` work as expected

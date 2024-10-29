@@ -1,0 +1,1 @@
+**Task #03:** `swimmingPool`'s `drainWater` function drains water from the pool over time

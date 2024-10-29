@@ -1,0 +1,1 @@
+**Task #01:** Program handles division by 0

@@ -1,0 +1,1 @@
+**Task #02:** Created the `digitCount` function

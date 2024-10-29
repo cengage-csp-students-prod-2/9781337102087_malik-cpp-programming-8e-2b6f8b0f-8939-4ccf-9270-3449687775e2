@@ -1,0 +1,1 @@
+**Task #02:** Uses file i/o with EOF-controlled loop

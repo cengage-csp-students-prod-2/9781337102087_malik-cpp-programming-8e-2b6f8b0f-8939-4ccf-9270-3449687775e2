@@ -1,0 +1,1 @@
+**Task #03:** Half the bill was paid output when half the bill is paid. 

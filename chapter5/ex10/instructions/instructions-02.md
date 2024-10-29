@@ -1,0 +1,1 @@
+**Task #02:** Output all odd numbers between `firstNum` and `secondNum`

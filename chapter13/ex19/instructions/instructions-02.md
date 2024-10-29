@@ -1,0 +1,1 @@
+**Task #02:** Overloads the assignment operator to copy a line into another line and overload the operator `==`, as a member function, so that it returns **true** if two lines are equal; **false** otherwise.

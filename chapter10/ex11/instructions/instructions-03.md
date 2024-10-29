@@ -1,0 +1,1 @@
+**Task #03:** The program can initialize a `personType` object without error

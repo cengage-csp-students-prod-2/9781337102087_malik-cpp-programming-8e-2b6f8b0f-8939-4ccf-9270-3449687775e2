@@ -1,0 +1,1 @@
+**Task #01:** `clockType` returns the time remaining in a day

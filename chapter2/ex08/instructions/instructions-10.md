@@ -1,0 +1,2 @@
+**Task #10:** Write a C++ statement that multiplies the value of num1 by 2, adds the value of num2 to it, and then stores the result in newNum. Then, write a C++ statement that outputs the value of newNum like: 
+```The value of newNum = (enter your value here)```

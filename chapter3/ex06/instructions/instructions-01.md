@@ -1,0 +1,1 @@
+**Task #01:** Output formatted to two decimal places.

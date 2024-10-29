@@ -1,0 +1,1 @@
+**Task #02:** Bill was paid in full message appears when the entire bill is paid. 

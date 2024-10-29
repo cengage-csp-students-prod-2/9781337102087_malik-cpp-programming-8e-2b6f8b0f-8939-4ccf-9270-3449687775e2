@@ -1,0 +1,1 @@
+**Task #01:** Program determines if a triangle is a right triangle.

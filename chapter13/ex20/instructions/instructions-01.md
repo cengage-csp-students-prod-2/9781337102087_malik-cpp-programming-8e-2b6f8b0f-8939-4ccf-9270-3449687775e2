@@ -1,0 +1,1 @@
+**Task #01:** Overloaded operators for `class` `dispenserType`

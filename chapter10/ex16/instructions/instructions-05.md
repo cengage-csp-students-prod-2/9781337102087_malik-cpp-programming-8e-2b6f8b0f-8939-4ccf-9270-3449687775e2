@@ -1,0 +1,1 @@
+**Task #05:** `swimmingPool`'s `timeToDrainThePool` function determines the time needed to drain the pool

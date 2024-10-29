@@ -1,0 +1,1 @@
+**Task #02:** Accept user input. User input integers are stored as 'firstNum' and 'secondNum'.

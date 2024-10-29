@@ -1,0 +1,1 @@
+**Task #07:** `lineType` determines if two lines are perpendicular

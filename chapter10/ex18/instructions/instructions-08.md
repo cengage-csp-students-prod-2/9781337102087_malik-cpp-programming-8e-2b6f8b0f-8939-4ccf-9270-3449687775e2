@@ -1,0 +1,1 @@
+**Task #08:** `lineType` prints the equation of the line

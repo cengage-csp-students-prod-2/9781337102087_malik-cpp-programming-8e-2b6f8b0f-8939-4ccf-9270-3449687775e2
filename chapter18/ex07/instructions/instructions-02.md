@@ -1,0 +1,1 @@
+**Task #02:** Loops used instead of recursion

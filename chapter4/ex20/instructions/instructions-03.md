@@ -1,0 +1,1 @@
+**Task #03:** Correct outputs for 10 to 19 rooms.

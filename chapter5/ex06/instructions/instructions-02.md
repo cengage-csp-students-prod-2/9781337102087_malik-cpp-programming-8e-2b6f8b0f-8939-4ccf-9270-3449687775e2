@@ -1,0 +1,1 @@
+**Task #02:** Correct output for non-prime numbers.

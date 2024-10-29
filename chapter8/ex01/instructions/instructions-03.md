@@ -1,0 +1,1 @@
+**Task #03:** Declared and initialized the `alpha` array to a size of 50 elements

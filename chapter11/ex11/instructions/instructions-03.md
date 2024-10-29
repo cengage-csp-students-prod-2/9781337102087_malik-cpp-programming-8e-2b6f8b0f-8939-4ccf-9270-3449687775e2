@@ -1,0 +1,1 @@
+**Task #03:** The `patientType` works as expected

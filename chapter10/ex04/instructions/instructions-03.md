@@ -1,0 +1,1 @@
+**Task #03:** `counterType`'s `incrementCounter` increments the value of counter

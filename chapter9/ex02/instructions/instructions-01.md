@@ -1,0 +1,1 @@
+**Task #01:** Correct program output is produced

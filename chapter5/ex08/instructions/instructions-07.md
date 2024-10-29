@@ -1,0 +1,1 @@
+**Task #07:** Output uppercase letters from A-Z.

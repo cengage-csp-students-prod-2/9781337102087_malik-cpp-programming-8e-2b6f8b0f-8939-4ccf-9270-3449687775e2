@@ -1,0 +1,1 @@
+**Task #02:** Derived `boxType` from `rectangleType`

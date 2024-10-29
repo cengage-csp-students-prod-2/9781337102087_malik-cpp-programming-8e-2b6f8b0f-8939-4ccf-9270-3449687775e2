@@ -1,0 +1,1 @@
+**Task #04:** The program can initialize a `clockType` object

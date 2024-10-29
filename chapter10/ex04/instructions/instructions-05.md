@@ -1,0 +1,1 @@
+**Task #05:** `counterType`'s `print` prints the value of counter

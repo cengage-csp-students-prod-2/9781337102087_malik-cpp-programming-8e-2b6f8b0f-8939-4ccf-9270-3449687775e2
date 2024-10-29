@@ -1,0 +1,30 @@
+{
+  "name": "MindTap",
+  "docker": {
+    "image": "mcr.microsoft.com/devcontainers/universal:linux"
+  },
+
+  "settings": {
+    "sync": false,
+    "workbench.activityBar.visible": false
+  },
+  "settings": {
+        "extensions.ignoreRecommendations": true,
+        "extensions.showRecommendationsOnlyOnDemand": true,
+        "git.openRepositoryInParentFolders": false
+  },
+  "forwardPorts": [3005],
+  "portsAttributes": {
+    "3005": {
+      "label": "cengage-companion",
+      "onAutoForward": "silent"
+    }
+  },
+  "extensions": [
+    "cengage.cengage-companion",
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-themes",
+    "twxs.cmake",
+    "ms-vscode.cmake-tools"
+  ]
+}

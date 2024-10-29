@@ -1,0 +1,1 @@
+**Task #03:** `clockType` returns the time difference between two clock objects

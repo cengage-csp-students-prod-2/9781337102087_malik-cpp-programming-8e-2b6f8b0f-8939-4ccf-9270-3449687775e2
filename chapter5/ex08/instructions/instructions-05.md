@@ -1,0 +1,1 @@
+**Task #05:** Output 1-10 and its squared value.

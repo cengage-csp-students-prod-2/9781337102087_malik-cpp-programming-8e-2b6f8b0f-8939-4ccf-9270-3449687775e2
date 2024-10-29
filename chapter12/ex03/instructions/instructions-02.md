@@ -1,0 +1,1 @@
+**Task #02:** Properly calculated and displayed the election results

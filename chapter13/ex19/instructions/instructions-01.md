@@ -1,0 +1,1 @@
+**Task #01:** Overloads the unary operator `+`, as a member function, so that it returns **true** if a line is vertical; **false** otherwise. Also overload the unary operator `–`, as a member function, so that it returns **true** if a line is horizontal; **false** otherwise.

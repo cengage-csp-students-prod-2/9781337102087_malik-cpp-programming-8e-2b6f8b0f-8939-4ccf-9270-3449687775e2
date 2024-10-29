@@ -1,0 +1,1 @@
+**Task #02:** Function template used to overload `==`

@@ -1,0 +1,1 @@
+**Task #04:** `lineType` indicates if two lines are equal

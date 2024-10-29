@@ -1,0 +1,1 @@
+**Task #01:** Division by zero error is shown

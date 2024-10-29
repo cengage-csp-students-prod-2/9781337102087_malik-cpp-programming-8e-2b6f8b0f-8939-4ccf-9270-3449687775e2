@@ -1,0 +1,1 @@
+**Task #01:** Defined the `remove` function

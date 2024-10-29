@@ -1,0 +1,1 @@
+**Task #02:** Did not hard code program's output

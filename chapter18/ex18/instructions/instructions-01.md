@@ -1,0 +1,1 @@
+**Task #01:** Methods of class `customerType` defined correctly

@@ -1,0 +1,1 @@
+**Task #01:** The `doctorType` works as expected

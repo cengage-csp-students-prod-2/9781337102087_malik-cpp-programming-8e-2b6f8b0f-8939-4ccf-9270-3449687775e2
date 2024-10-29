@@ -1,0 +1,1 @@
+**Task #06:** `lineType` determines if two lines are parallel

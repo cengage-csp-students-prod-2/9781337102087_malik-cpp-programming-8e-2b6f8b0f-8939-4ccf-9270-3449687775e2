@@ -1,0 +1,1 @@
+**Task #06:** `numberOfDaysLeft` function returns the number of days left in the year

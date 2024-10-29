@@ -1,0 +1,1 @@
+**Task #07:** Write C++ statements that prompt the user to enter a decimal number between 0 and 70 and then store the number entered into hoursWorked.

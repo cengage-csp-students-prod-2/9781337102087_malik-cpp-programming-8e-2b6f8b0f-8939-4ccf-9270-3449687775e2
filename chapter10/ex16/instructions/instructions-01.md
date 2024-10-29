@@ -1,0 +1,1 @@
+**Task #01:** `swimmingPool`'s `poolTotalWaterCapacity` returns the total water capacity of the pool

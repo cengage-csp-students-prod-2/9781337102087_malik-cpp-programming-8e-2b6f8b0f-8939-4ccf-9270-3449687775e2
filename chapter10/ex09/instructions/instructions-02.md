@@ -1,0 +1,1 @@
+**Task #02:** set and get methods work as expected 

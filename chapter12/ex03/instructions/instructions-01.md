@@ -1,0 +1,1 @@
+**Task #01:** Used dynamic arrays to hold the names of candidates and their votes

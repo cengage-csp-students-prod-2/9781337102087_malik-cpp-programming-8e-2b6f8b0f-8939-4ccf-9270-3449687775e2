@@ -1,0 +1,1 @@
+**Task #02:** The program accepts I/O from the user

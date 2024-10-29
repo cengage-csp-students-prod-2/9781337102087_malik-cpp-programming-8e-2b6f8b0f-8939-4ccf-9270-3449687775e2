@@ -1,0 +1,1 @@
+**Task #02:** `counterType`'s `getCounter` returns the value of counter

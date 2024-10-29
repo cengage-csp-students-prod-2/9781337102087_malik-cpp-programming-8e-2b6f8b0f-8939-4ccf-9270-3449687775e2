@@ -1,0 +1,2 @@
+**Task #11:** Write a C++ statement that updates the value of newNum by adding the value of the named constant SECRET to it. Then, write a C++ statement that outputs the value of the new value of newNum like:
+```The new value of newNum = (enter your number here)```.

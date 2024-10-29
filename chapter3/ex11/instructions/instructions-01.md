@@ -1,0 +1,1 @@
+**Task #01:** Correct dimensions output of the new candy bar size.

@@ -1,0 +1,1 @@
+**Task #04:** `swimmingPool`'s `timeToFillThePool` function determines the time needed to fill the pool

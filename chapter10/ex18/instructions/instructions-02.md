@@ -1,0 +1,1 @@
+**Task #02:** `lineType` returns the slope of a line

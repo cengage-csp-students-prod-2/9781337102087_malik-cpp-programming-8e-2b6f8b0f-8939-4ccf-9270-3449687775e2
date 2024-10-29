@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 //variable declaration
+
 int num1 = 125;
 int num2 = 28;
 int num3 = -25;

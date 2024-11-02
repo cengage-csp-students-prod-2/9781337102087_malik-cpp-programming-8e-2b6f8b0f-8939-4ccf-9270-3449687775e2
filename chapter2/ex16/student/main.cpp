@@ -11,9 +11,11 @@ int main() {
     cout<<"Enter the total amount of milk produced in the morning"<<endl;
     cin>>amount;
     int newCartons = static_cast<int>(amount / milk_rate);
+
+    double profit = profit_carton * (amount / milk_rate);
     cout<<"The number of milk cartoons needed to hold the milk = "<< newCartons <<endl;
     cout<<"THe cost of producing the milk = "<< milk_one_litre *amount<<endl;
-    cout<<"The profit for producing the milk = "<< profit_carton * newCartons<<endl;
+    cout<<"The profit for producing the milk = "<< profit <<endl;
 
 
     return 0;

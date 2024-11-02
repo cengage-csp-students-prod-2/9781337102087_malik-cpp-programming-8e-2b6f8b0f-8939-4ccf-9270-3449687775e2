@@ -24,11 +24,13 @@ int main()
     cout<<"Enter a number of hours worked between 0 to 70 : "<<endl;
     cin>>hoursWorked;
     wages = RATE * hoursWorked;
-    cout<<"The value of num1 = "<<num1<<" and the value of num2 is "<<num2<<"."<<endl;
+    cout<<"The value of num1 = "<<num1<<" and the value of num2 = "<<num2<<"."<<endl;
+    
+
     newNum = num1 * 2 + num2 ;
     cout<<"The value of newNum = "<<newNum<<endl;
     newNum = newNum + SECRET;
-    cout<<"The value of newNum = "<<newNum<<endl;
+    cout<<"The new value of newNum = "<<newNum<<endl;
 
     cout<<"Name: "<<name<<"\nPay Rate: $"<<RATE<<"\nHours Worked: "<<hoursWorked<<"\nSalary: $"<<wages<<endl;
 

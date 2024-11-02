@@ -1,0 +1,13 @@
+
+Status: PASSED!
+Check: 1
+Test: Declare and initialize constant `SECRET` to `11`
+Reason: const int SECRET = 11; + ` was found in the program.None
+Timestamp: 2024-11-02 03:00:14.076247
+
+Status: FAILED!
+Check: 2
+Test: Declare and initialize constant `RATE` to `12.50`
+Reason: Unable to find 'const double RATE = 12.50;  ' in the program.
+Error : str - AssertionError
+Timestamp: 2024-11-02 03:00:14.076638

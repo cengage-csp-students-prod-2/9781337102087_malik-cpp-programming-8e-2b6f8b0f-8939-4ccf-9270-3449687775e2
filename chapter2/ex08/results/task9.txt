@@ -1,0 +1,18 @@
+
+Status: FAILED!
+Check: 1
+Test: Circle object's dimensions were printed to the console
+Reason: Unable to find '['The value of num1 = 10 and the value of num2 = 1.']' in the program's output.
+Enter two integer: 
+Enter a person's last name: 
+Enter a number of hours worked between 0 to 70 : 
+The value of num1 = 10 and the value of num2 is 1.
+The value of newNumv = 21
+The value of newNum = 32
+Name: Smith
+Pay Rate: $12.5
+Hours Worked: 11.1
+Salary: $138.75
+.
+Error : AssertionError - Unable to find The value of num1 = 10 and the value of num2 = 1. in the program's output.
+Timestamp: 2024-11-02 03:00:14.081868

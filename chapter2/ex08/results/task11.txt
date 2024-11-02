@@ -1,18 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: SECRET` added to `newNum` and result displayed"
-Reason: Unable to find '['The new value of newNum = 32']' in the program's output.
-Enter two integer: 
-Enter a person's last name: 
-Enter a number of hours worked between 0 to 70 : 
-The value of num1 = 10 and the value of num2 is 1.
-The value of newNum = 21
-The value of newNum = 32
-Name: Smith
-Pay Rate: $12.5
-Hours Worked: 11.1
-Salary: $138.75
-.
-Error : AssertionError - Unable to find The new value of newNum = 32 in the program's output.
-Timestamp: 2024-11-02 03:10:30.262516
+Reason: None
+Timestamp: 2024-11-02 03:12:47.206205

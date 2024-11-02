@@ -9,7 +9,7 @@ THe cost of producing the milk = 1862
 The profit for producing the milk = 350
 .
 Error : AssertionError - Unable to find a number close enough to 349.92 (+/-0.00) in the program's output.
-Timestamp: 2024-11-02 14:10:44.729052
+Timestamp: 2024-11-02 14:11:07.948273
 
 Status: FAILED!
 Check: 2
@@ -21,7 +21,7 @@ THe cost of producing the milk = 1337.75
 The profit for producing the milk = 251.457
 .
 Error : AssertionError - Unable to find a number close enough to 251.37 (+/-0.00) in the program's output.
-Timestamp: 2024-11-02 14:10:44.732579
+Timestamp: 2024-11-02 14:11:07.950554
 
 Status: FAILED!
 Check: 3
@@ -33,4 +33,4 @@ THe cost of producing the milk = 1364.41
 The profit for producing the milk = 256.469
 .
 Error : AssertionError - Unable to find a number close enough to 950 (+/-0.00) in the program's output.
-Timestamp: 2024-11-02 14:10:44.735928
+Timestamp: 2024-11-02 14:11:07.952812

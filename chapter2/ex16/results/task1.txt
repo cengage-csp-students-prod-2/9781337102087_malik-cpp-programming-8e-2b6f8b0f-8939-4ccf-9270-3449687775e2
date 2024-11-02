@@ -1,21 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-11-02 13:38:12.263231
+Test: Test case 1
+Reason: None
+Timestamp: 2024-11-02 13:38:53.902130
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-11-02 13:38:12.263418
+Test: Test case 2
+Reason: None
+Timestamp: 2024-11-02 13:38:53.904361
 
 Status: FAILED!
 Check: 3
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-11-02 13:38:12.263504
+Test: Test case 3
+Reason: Unable to find '['950', '1364.41', '256.5']' in the program's output.
+Enter the total amount of milk produced in the morning
+The number of milk cartoons needed to hold the milk = 949
+THe cost of producing the milk = 1364.41
+The profit for producing the milk = 256.23
+.
+Error : AssertionError - Unable to find a number close enough to 950 (+/-0.00) in the program's output.
+Timestamp: 2024-11-02 13:38:53.906489

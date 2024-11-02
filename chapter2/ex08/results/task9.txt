@@ -6,7 +6,7 @@ Reason: Unable to find '['The value of num1 = 10 and the value of num2 = 1.']' i
 Enter two integer: 
 Enter a person's last name: 
 Enter a number of hours worked between 0 to 70 : 
-The value of num1 = 10 and the value of num2 is 1
+The value of num1 = 10 and the value of num2 is 1.
 The value of newNum = 21
 The value of newNum = 32
 Name: Smith
@@ -15,4 +15,4 @@ Hours Worked: 11.1
 Salary: $138.75
 .
 Error : AssertionError - Unable to find The value of num1 = 10 and the value of num2 = 1. in the program's output.
-Timestamp: 2024-11-02 03:07:29.450452
+Timestamp: 2024-11-02 03:10:30.275856

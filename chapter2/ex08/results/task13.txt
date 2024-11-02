@@ -1,14 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-11-02 03:13:19.159725
+Test: Test case 1
+Reason: None
+Timestamp: 2024-11-02 03:16:06.660718
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-11-02 03:13:19.159825
+Test: Test case 2
+Reason: None
+Timestamp: 2024-11-02 03:16:06.663065

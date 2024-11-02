@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Prompt for input between `0` and `70` to `hoursWorked`
 Reason: cout << "Enter a decimal number between 0 and 70: " ; + ` was found in the program.None
-Timestamp: 2024-11-02 03:16:06.666475
+Timestamp: 2024-11-02 03:16:33.857183
 
 Status: PASSED!
 Check: 2
 Test: Store input in `hoursWorked`
 Reason: cin >> hoursWorked + ` was found in the program.None
-Timestamp: 2024-11-02 03:16:06.666756
+Timestamp: 2024-11-02 03:16:33.857454

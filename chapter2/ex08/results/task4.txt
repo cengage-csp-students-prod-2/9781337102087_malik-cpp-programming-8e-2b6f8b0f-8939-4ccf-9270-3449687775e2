@@ -3,34 +3,34 @@ Status: PASSED!
 Check: 1
 Test: Variable `num1` declared of type `int`
 Reason: int num1 + ` was found in the program.None
-Timestamp: 2024-11-02 03:00:14.076869
+Timestamp: 2024-11-02 03:03:52.573837
 
 Status: PASSED!
 Check: 2
 Test: Variable `num2` declared of type `int`
 Reason: int num1, num2 + ` was found in the program.None
-Timestamp: 2024-11-02 03:00:14.077110
+Timestamp: 2024-11-02 03:03:52.574070
 
 Status: PASSED!
 Check: 3
 Test: Variable `newNum` declared of type `int`
 Reason: int num1, num2, newNum + ` was found in the program.None
-Timestamp: 2024-11-02 03:00:14.077322
+Timestamp: 2024-11-02 03:03:52.574279
 
 Status: PASSED!
 Check: 4
 Test: Variable `name` declared of type `string`
 Reason: string name + ` was found in the program.None
-Timestamp: 2024-11-02 03:00:14.077540
+Timestamp: 2024-11-02 03:03:52.574493
 
 Status: PASSED!
 Check: 5
 Test: Variable `hoursWorked` declared of type `double`
 Reason: double hoursWorked + ` was found in the program.None
-Timestamp: 2024-11-02 03:00:14.077756
+Timestamp: 2024-11-02 03:03:52.574711
 
 Status: PASSED!
 Check: 6
 Test: Variable `wages` declared of type `double`
 Reason: double hoursWorked, wages + ` was found in the program.None
-Timestamp: 2024-11-02 03:00:14.077964
+Timestamp: 2024-11-02 03:03:52.574918

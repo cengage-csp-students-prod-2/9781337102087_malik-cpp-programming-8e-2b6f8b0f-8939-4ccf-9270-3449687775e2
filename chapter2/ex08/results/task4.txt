@@ -1,36 +1,42 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: Variable `num1` declared of type `int`
-Reason: int num1 + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.214467
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.160653
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
-Test: Variable `num2` declared of type `int`
-Reason: int num1, num2 + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.214704
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.160808
 
-Status: PASSED!
+Status: FAILED!
 Check: 3
-Test: Variable `newNum` declared of type `int`
-Reason: int num1, num2, newNum + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.214934
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.160901
 
-Status: PASSED!
+Status: FAILED!
 Check: 4
-Test: Variable `name` declared of type `string`
-Reason: string name + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.215151
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.160979
 
-Status: PASSED!
+Status: FAILED!
 Check: 5
-Test: Variable `hoursWorked` declared of type `double`
-Reason: double hoursWorked + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.215367
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.161050
 
-Status: PASSED!
+Status: FAILED!
 Check: 6
-Test: Variable `wages` declared of type `double`
-Reason: double hoursWorked, wages + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.215577
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.161120

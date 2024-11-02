@@ -1,12 +1,14 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: Prompt for input between `0` and `70` to `hoursWorked`
-Reason: cout << "Enter a decimal number between 0 and 70: " ; + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.216584
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.161494
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
-Test: Store input in `hoursWorked`
-Reason: cin >> hoursWorked + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.216868
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.161590

@@ -1,12 +1,14 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: Declare and initialize constant `SECRET` to `11`
-Reason: const int SECRET = 11; + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.213868
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.160065
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
-Test: Declare and initialize constant `RATE` to `12.50`
-Reason: const double RATE = 12.50;   + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.214234
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.160200

@@ -1,6 +1,7 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: Prompt for input and store input in `name` variable
-Reason: cin >> name + ` was found in the program.None
-Timestamp: 2024-11-02 03:12:47.216281
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the c++ files.
+Timestamp: 2024-11-02 03:13:19.161388

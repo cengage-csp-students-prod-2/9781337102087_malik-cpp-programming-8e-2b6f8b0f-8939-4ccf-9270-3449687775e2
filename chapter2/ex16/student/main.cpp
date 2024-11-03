@@ -15,12 +15,12 @@ int main() {
 
     // Calculations
     int cartons_needed = ceil(total_milk / milk_per_carton);  // Number of cartons needed, rounded up
-    double production_cost = milk_one_litre * total_milk;
+    int production_cost = milk_one_litre * total_milk;
     double production_profit = cartons_needed * profit_carton;
 
     // Output results with formatting
     cout << "The number of milk cartons needed to hold the milk = " << cartons_needed<< endl;
-    cout << "The cost of producing the milk = " << fixed << setprecision(2) << production_cost << endl;
+    cout << "The cost of producing the milk = " <<  production_cost << endl;
     cout << "The profit for producing the milk = " << fixed << setprecision(2) << production_profit << endl;
 
     return 0;

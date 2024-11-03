@@ -19,7 +19,7 @@ int main() {
     double production_profit = cartons_needed * profit_carton;
 
     // Output results with formatting
-    cout << "The number of milk cartons needed to hold the milk = " << total_milk/milk_one_litre<< endl;
+    cout << "The number of milk cartons needed to hold the milk = " << cartons_needed<< endl;
     cout << "The cost of producing the milk = " << fixed << setprecision(2) << production_cost << endl;
     cout << "The profit for producing the milk = " << fixed << setprecision(2) << production_profit << endl;
 

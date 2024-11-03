@@ -3,32 +3,26 @@ Status: FAILED!
 Check: 1
 Test: Test case 1
 Reason: Unable to find '['1296', '1862', '349.92']' in the program's output.
-Enter the total amount of milk produced in the morning: The number of milk cartons needed to hold the milk = 1297(+/-0.00).
-
-The cost of producing the milk = 1862(+/-0.00).
-
-The profit for producing the milk = 350.19.
-
+Enter the total amount of milk produced in the morning: The number of milk cartons needed to hold the milk = 1297(+/-0.00)
+The cost of producing the milk = 1862(+/-0.00)
+The profit for producing the milk = 350.19
 .
 Error : AssertionError - Unable to find a number close enough to 1296 (+/-0.00) in the program's output.
-Timestamp: 2024-11-03 22:34:22.835574
+Timestamp: 2024-11-03 22:35:30.250482
 
 Status: FAILED!
 Check: 2
 Test: Test case 2
 Reason: Unable to find '['931', '1337.75', '251.37']' in the program's output.
-Enter the total amount of milk produced in the morning: The number of milk cartons needed to hold the milk = 932(+/-0.00).
-
-The cost of producing the milk = 1337.75(+/-0.00).
-
-The profit for producing the milk = 251.64.
-
+Enter the total amount of milk produced in the morning: The number of milk cartons needed to hold the milk = 932(+/-0.00)
+The cost of producing the milk = 1337.75(+/-0.00)
+The profit for producing the milk = 251.64
 .
 Error : AssertionError - Unable to find a number close enough to 931 (+/-0.00) in the program's output.
-Timestamp: 2024-11-03 22:34:22.837813
+Timestamp: 2024-11-03 22:35:30.253788
 
 Status: PASSED!
 Check: 3
 Test: Test case 3
 Reason: None
-Timestamp: 2024-11-03 22:34:22.839996
+Timestamp: 2024-11-03 22:35:30.256963

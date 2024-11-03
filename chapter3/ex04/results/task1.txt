@@ -9,7 +9,7 @@ Enter the area, in square feet, that can be fertilized by one bag: The cost of t
 The cost of fertilizing per square foot is: $25.00
 .
 Error : AssertionError - Unable to find a number close enough to 0.36 (+/-0.00) in the program's output.
-Timestamp: 2024-11-03 22:54:55.894519
+Timestamp: 2024-11-03 22:55:45.964102
 
 Status: FAILED!
 Check: 2
@@ -21,4 +21,4 @@ Enter the area, in square feet, that can be fertilized by one bag: The cost of t
 The cost of fertilizing per square foot is: $15.01
 .
 Error : AssertionError - Unable to find a number close enough to 0.80 (+/-0.00) in the program's output.
-Timestamp: 2024-11-03 22:54:55.896741
+Timestamp: 2024-11-03 22:55:45.966357

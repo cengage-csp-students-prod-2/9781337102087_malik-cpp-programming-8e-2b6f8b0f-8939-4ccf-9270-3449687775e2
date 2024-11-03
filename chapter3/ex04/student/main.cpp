@@ -23,8 +23,8 @@ int main()
     cout << "Enter the area in square feet that can be fertilized by one bag: ";
     cin >> area;
     
-    cout << "The cost of the fertilizer per pound is: $" << fixed << showpoint << setprecision(2)<< round(bagSize / cost )<< endl;
+    cout << "The cost of the fertilizer per pound is: $" <<round(bagSize / cost )<< endl;
     
-    cout << "The cost of fertilizing per square foot is: $"  << fixed << showpoint << setprecision(2)<<round(area / cost) << endl;
+    cout << "The cost of fertilizing per square foot is: $"  << round(area / cost) << endl;
     return 0;
 }

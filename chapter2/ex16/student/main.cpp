@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>    // For the ceil function
+#include <cmath>    // For the round function
 #include <iomanip>  // For setting decimal precision
 
 using namespace std;
@@ -14,7 +14,7 @@ int main() {
     cin >> total_milk;
 
     // Calculations
-    int cartons_needed = ceil(total_milk / milk_per_carton);  // Number of cartons needed, rounded up
+    int cartons_needed = round(total_milk / milk_per_carton);  // Number of cartons needed, rounded to the nearest integer
     double production_cost = milk_one_litre * total_milk;
     double production_profit = cartons_needed * profit_carton;
 

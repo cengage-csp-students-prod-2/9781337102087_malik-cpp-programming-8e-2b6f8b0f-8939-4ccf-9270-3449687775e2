@@ -10,7 +10,7 @@ int main() {
     double profit_carton = 0.27;       // Profit per carton of milk
     double total_milk;                 // Total milk produced in liters
 
-    cout << "Enter the total amount of milk produced in the morning: ";
+    cout << "Enter the total amount of milk produced in the morning: \n";
     cin >> total_milk;
 
     // Calculations

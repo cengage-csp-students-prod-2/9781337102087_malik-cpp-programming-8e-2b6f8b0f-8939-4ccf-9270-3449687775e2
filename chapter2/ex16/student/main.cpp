@@ -19,9 +19,9 @@ int main() {
     double production_profit = cartons_needed * profit_carton;
 
     // Output results with formatting
-    cout << "The number of milk cartons needed to hold the milk = " << cartons_needed<< endl;
-    cout << "The cost of producing the milk = " <<  production_cost << endl;
-    cout << "The profit for producing the milk = " << production_profit << endl;
+    cout << "The number of milk cartons needed to hold the milk = " << cartons_needed<<".\n"<< endl;
+    cout << "The cost of producing the milk = " <<  production_cost<< ".\n" << endl;
+    cout << "The profit for producing the milk = " << production_profit<< ".\n" << endl;
 
     return 0;
 }

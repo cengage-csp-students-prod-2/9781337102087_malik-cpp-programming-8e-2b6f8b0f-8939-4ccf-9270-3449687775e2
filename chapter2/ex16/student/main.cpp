@@ -20,8 +20,8 @@ int main() {
 
     // Output results with formatting
     cout << "The number of milk cartons needed to hold the milk = " << cartons_needed << endl;
-    cout << "The cost of producing the milk = " << fixed << setprecision(2) << production_cost << endl;
-    cout << "The profit for producing the milk = " << fixed << setprecision(2) << production_profit << endl;
+    cout << "The cost of producing the milk = " << production_cost << endl;
+    cout << "The profit for producing the milk = "  << production_profit << endl;
 
     return 0;
 }

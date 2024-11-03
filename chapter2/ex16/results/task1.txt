@@ -6,10 +6,10 @@ Reason: Unable to find '['1296', '1862', '349.92']' in the program's output.
 Enter the total amount of milk produced in the morning
 The number of milk cartoons needed to hold the milk = 1296
 THe cost of producing the milk = 1862
-The profit for producing the milk = 350
+The profit for producing the milk = 1296
 .
 Error : AssertionError - Unable to find a number close enough to 349.92 (+/-0.00) in the program's output.
-Timestamp: 2024-11-03 14:57:00.537247
+Timestamp: 2024-11-03 14:58:28.909456
 
 Status: FAILED!
 Check: 2
@@ -18,10 +18,10 @@ Reason: Unable to find '['931', '1337.75', '251.37']' in the program's output.
 Enter the total amount of milk produced in the morning
 The number of milk cartoons needed to hold the milk = 931
 THe cost of producing the milk = 1337.75
-The profit for producing the milk = 251.457
+The profit for producing the milk = 931
 .
 Error : AssertionError - Unable to find a number close enough to 251.37 (+/-0.00) in the program's output.
-Timestamp: 2024-11-03 14:57:00.539617
+Timestamp: 2024-11-03 14:58:28.911694
 
 Status: FAILED!
 Check: 3
@@ -30,7 +30,7 @@ Reason: Unable to find '['950', '1364.41', '256.5']' in the program's output.
 Enter the total amount of milk produced in the morning
 The number of milk cartoons needed to hold the milk = 949
 THe cost of producing the milk = 1364.41
-The profit for producing the milk = 256.469
+The profit for producing the milk = 949
 .
 Error : AssertionError - Unable to find a number close enough to 950 (+/-0.00) in the program's output.
-Timestamp: 2024-11-03 14:57:00.541837
+Timestamp: 2024-11-03 14:58:28.913848

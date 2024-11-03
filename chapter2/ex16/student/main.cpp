@@ -15,7 +15,7 @@ int main() {
 
     // Calculations
     int cartons_needed = ceil(total_milk / milk_per_carton);  // Number of cartons needed, rounded up
-    int production_cost = milk_one_litre * total_milk;
+    double production_cost = milk_one_litre * total_milk;
     double production_profit = cartons_needed * profit_carton;
 
     // Output results with formatting

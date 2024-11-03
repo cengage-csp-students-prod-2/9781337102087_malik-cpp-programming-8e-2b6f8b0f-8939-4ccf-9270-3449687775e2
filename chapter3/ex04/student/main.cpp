@@ -13,7 +13,7 @@ int main()
     
     
     
-    cout << "Enter the amount of fertilizer, in pounds, in one bag: "<<endl;
+    cout << "Enter the amount of fertilizer in pounds in one bag: "<<endl;
     cin >> bagSize;
     
     cout << "Enter the cost of the " << bagSize << " pound fertilizer bag: "<<endl;

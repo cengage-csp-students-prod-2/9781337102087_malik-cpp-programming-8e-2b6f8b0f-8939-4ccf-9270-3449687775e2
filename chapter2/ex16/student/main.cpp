@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>    // For the ceil function
-#include <iomanip>  // For setting decimal precision
+
 
 using namespace std;
 

@@ -1,26 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Cost per pound and per square foot correctly output test 1
-Reason: Unable to find '['0.36', '0.04']' in the program's output.
-Enter the amount of fertilizer, in pounds, in one bag: 
-Enter the cost of the 33.00 pound fertilizer bag: 
-Enter the area, in square feet that can be fertilized by one bag: 
-The cost of the fertilizer per pound is: $2.75
-The cost of fertilizing per square foot is: $25.00
-.
-Error : AssertionError - Unable to find a number close enough to 0.36 (+/-0.00) in the program's output.
-Timestamp: 2024-11-08 04:42:11.821935
+Reason: None
+Timestamp: 2024-11-08 04:45:11.313131
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Cost per pound and per square foot correctly output test 2
-Reason: Unable to find '['0.80', '0.07']' in the program's output.
-Enter the amount of fertilizer, in pounds, in one bag: 
-Enter the cost of the 10.00 pound fertilizer bag: 
-Enter the area, in square feet that can be fertilized by one bag: 
-The cost of the fertilizer per pound is: $1.25
-The cost of fertilizing per square foot is: $15.01
-.
-Error : AssertionError - Unable to find a number close enough to 0.80 (+/-0.00) in the program's output.
-Timestamp: 2024-11-08 04:42:11.824195
+Reason: None
+Timestamp: 2024-11-08 04:45:11.315781

@@ -23,8 +23,8 @@ int main()
     cout << "Enter the area, in square feet that can be fertilized by one bag: "<<endl;
     cin >> area;
     
-    cout << "The cost of the fertilizer per pound is: $" <<(bagSize / cost )<< endl;
+    cout << "The cost of the fertilizer per pound is: $" <<(cost / bagSize )<< endl;
     
-    cout << "The cost of fertilizing per square foot is: $"  << (area / cost) << endl;
+    cout << "The cost of fertilizing per square foot is: $"  << ( cost/ area) << endl;
     return 0;
 }

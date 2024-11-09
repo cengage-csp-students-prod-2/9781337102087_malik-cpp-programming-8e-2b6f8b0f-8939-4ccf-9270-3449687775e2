@@ -1,0 +1,33 @@
+
+Status: PASSED!
+Check: 1
+Test: Run the program to produce *Ch3_Ex5Output.dat*
+Reason: None
+Timestamp: 2024-11-09 21:38:47.536107
+
+Status: FAILED!
+Check: 2
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: 'Ch3_Ex5Output.dat'
+Timestamp: 2024-11-09 21:38:47.536308
+
+Status: FAILED!
+Check: 3
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: 'Ch3_Ex5Output.dat'
+Timestamp: 2024-11-09 21:38:47.536411
+
+Status: FAILED!
+Check: 4
+Test: 
+Reason: 
+Error : FileNotFoundError - [Errno 2] No such file or directory: 'Ch3_Ex5Output.dat'
+Timestamp: 2024-11-09 21:38:47.536501
+
+Status: PASSED!
+Check: 5
+Test: Did not hard code values into the program
+Reason: 69079.36 + ` was found in the program.None
+Timestamp: 2024-11-09 21:38:47.536808

@@ -3,34 +3,34 @@ Status: PASSED!
 Check: 1
 Test: Run the program to produce *Ch3_Ex5Output.dat*
 Reason: None
-Timestamp: 2024-11-09 22:52:22.464597
+Timestamp: 2024-11-09 22:53:56.845681
 
 Status: PASSED!
 Check: 2
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 1
 Reason: Robert Parker 13333.32 + ` was found in the program.None
-Timestamp: 2024-11-09 22:52:22.464911
+Timestamp: 2024-11-09 22:53:56.845942
 
 Status: PASSED!
 Check: 3
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 2
 Reason: Harry Longabaugh 100740.74 + ` was found in the program.None
-Timestamp: 2024-11-09 22:52:22.465166
+Timestamp: 2024-11-09 22:53:56.846140
 
 Status: PASSED!
 Check: 4
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 3
 Reason: Etna Place 79469.43 + ` was found in the program.None
-Timestamp: 2024-11-09 22:52:22.465399
+Timestamp: 2024-11-09 22:53:56.846334
 
 Status: PASSED!
 Check: 5
 Test: Did not hard code values into the program
 Reason: 13333.32 + ` was found in the program.None
-Timestamp: 2024-11-09 22:52:22.465770
+Timestamp: 2024-11-09 22:53:56.846577
 
 Status: PASSED!
 Check: 6
 Test: Did not hard code the output into *Ch3_Ex5Output.dat*
 Reason: Andrew Miller 69079.36 + ` was found in the program.None
-Timestamp: 2024-11-09 22:52:22.466479
+Timestamp: 2024-11-09 22:53:56.846987

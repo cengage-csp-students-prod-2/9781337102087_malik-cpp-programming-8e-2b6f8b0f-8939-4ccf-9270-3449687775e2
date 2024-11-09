@@ -14,31 +14,49 @@ int main() {
     string firstName; // for first name
     string lastName; //for lastname
     string fileName; // for fileName for output
-    int salary;
-    int increasedRate;
-    int updatedSalary;
+    float salary;
+    float increasedRate;
+    float updatedSalary;
 
     // Request the filename for output
     // cout<<"Enter the file name for output: "<< endl;
     // cin>>fileName;
 
-    inFile.open("Ch3_Ex5Data.txt");
-    outFile.open("Ch3_Ex5Output.dat");
+    inFile.open("Ch3_Ex5Data.txt",ios::in);
+    outFile.open("Ch3_Ex5Outputom.txt", ios::out);
     //set the precision for the output file
     outFile<<fixed<<showpoint<<setprecision(2);
-    if(inFile.is_open()){
-        while (inFile.good() ){
+    if(!outFile){
+        cout<<"File creation failed";
+
+    }
+    else{
+        cout<<"New file created";
+        
+    }
+
+
+    
+    
+    if(!inFile or !outFile){
+        cout<<"No such file";        
+    }
+    else{
         // read the data from file 
-            
+        while(inFile){
             inFile>>lastName;
             inFile>>firstName;
             inFile>>salary;
-            inFile>> increasedRate;
+            inFile>>increasedRate;
 
+
+            
+            cout<<increasedRate;
             // calculating Updating salary
-
+       
             updatedSalary = salary *( 1 + increasedRate / 100 );
-
+            
+        
             // Writibg the data to the outputfile
 
             outFile<< firstName;
@@ -46,7 +64,7 @@ int main() {
             outFile<< updatedSalary ;
         
 
-        }
+        }    
     }
     inFile.close();
     outFile.close();

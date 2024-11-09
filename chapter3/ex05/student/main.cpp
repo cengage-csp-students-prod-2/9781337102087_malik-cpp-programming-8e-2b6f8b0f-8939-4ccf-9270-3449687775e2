@@ -23,7 +23,7 @@ int main() {
     // cin>>fileName;
 
     inFile.open("Ch3_Ex5Data.txt",ios::in);
-    outFile.open("Ch3_Ex5Outputom.txt", ios::out);
+    outFile.open("Ch3_Ex5Output.dat", ios::out);
     //set the precision for the output file
     outFile<<fixed<<showpoint<<setprecision(2);
     if(!outFile){
@@ -59,9 +59,9 @@ int main() {
         
             // Writibg the data to the outputfile
 
-            outFile<< firstName;
-            outFile<< lastName ;
-            outFile<< updatedSalary ;
+            outFile<< firstName<<" ";
+            outFile<< lastName <<" ";
+            outFile<< updatedSalary<<endl ;
         
 
         }    

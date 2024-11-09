@@ -3,6 +3,7 @@
 #include<ios>
 #include<string>
 #include <iomanip>
+#include<cmath>
 // Declared header files
 using namespace std;
 
@@ -25,7 +26,7 @@ int main() {
     inFile.open("testFileData.txt",ios::in);
     outFile.open("Ch3_Ex5Output.dat", ios::out);
     //set the precision for the output file
-    outFile<<fixed<<showpoint<<setprecision(2);
+    outFile <<fixed <<showpoint<<setprecision(2)<<endl;
     if(!outFile){
         cout<<"File creation failed";
 

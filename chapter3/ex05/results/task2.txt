@@ -3,35 +3,35 @@ Status: PASSED!
 Check: 1
 Test: Run the program to produce *Ch3_Ex5Output.dat*
 Reason: None
-Timestamp: 2024-11-09 22:03:59.246939
+Timestamp: 2024-11-09 22:04:59.144109
 
 Status: PASSED!
 Check: 2
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 1
 Reason: Robert Parker 13333.32 + ` was found in the program.None
-Timestamp: 2024-11-09 22:03:59.247264
+Timestamp: 2024-11-09 22:04:59.144423
 
 Status: FAILED!
 Check: 3
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 2
 Reason: Unable to find 'Harry Longabaugh 100740.74' in the program.
 Error : str - AssertionError
-Timestamp: 2024-11-09 22:03:59.247476
+Timestamp: 2024-11-09 22:04:59.144636
 
 Status: PASSED!
 Check: 4
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 3
 Reason: Etna Place 79469.43 + ` was found in the program.None
-Timestamp: 2024-11-09 22:03:59.247665
+Timestamp: 2024-11-09 22:04:59.144828
 
 Status: PASSED!
 Check: 5
 Test: Did not hard code values into the program
 Reason: 13333.32 + ` was found in the program.None
-Timestamp: 2024-11-09 22:03:59.247900
+Timestamp: 2024-11-09 22:04:59.145069
 
 Status: PASSED!
 Check: 6
 Test: Did not hard code the output into *Ch3_Ex5Output.dat*
 Reason: Andrew Miller 69079.36 + ` was found in the program.None
-Timestamp: 2024-11-09 22:03:59.248293
+Timestamp: 2024-11-09 22:04:59.145470

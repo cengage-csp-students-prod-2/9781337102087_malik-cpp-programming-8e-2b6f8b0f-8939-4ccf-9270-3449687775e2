@@ -24,6 +24,7 @@ int main() {
     // cin>>fileName;
 
     inFile.open("testFileData.txt",ios::in);
+    // inFile.open("Ch3_Ex5Data.txt",ios::in);
     outFile.open("Ch3_Ex5Output.dat", ios::out);
     //set the precision for the output file
     outFile <<fixed <<setprecision(2)<<endl;

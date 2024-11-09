@@ -22,7 +22,7 @@ int main() {
     // cout<<"Enter the file name for output: "<< endl;
     // cin>>fileName;
 
-    inFile.open("Ch3_Ex5Data.txt",ios::in);
+    inFile.open("testFileData.txt",ios::in);
     outFile.open("Ch3_Ex5Output.dat", ios::out);
     //set the precision for the output file
     outFile<<fixed<<showpoint<<setprecision(2);

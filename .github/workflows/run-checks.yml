@@ -55,7 +55,7 @@ jobs:
         run: git pull origin ${{ github.event.inputs.BRANCH }}
 
       - name: Save target directory as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: artifact-${{ github.event.inputs.CHAPTER }}-${{ github.event.inputs.EXERCISE }}
           path: ${{ github.event.inputs.CHAPTER }}/${{ github.event.inputs.EXERCISE }}/student/
@@ -69,7 +69,7 @@ jobs:
           ref: ${{ github.event.inputs.TEST_BRANCH }}
 
       - name: Download target artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: artifact-${{ github.event.inputs.CHAPTER }}-${{ github.event.inputs.EXERCISE }}
           path: ${{ github.event.inputs.LANGUAGE }}/${{ github.event.inputs.CHAPTER }}/${{ github.event.inputs.EXERCISE }}
@@ -87,7 +87,7 @@ jobs:
           python3 tasks.py
 
       - name: Save test results as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: artifact-${{ github.event.inputs.CHAPTER }}-${{ github.event.inputs.EXERCISE }}-results
           path: |
@@ -128,7 +128,7 @@ jobs:
           ref: ${{ github.event.inputs.BRANCH }}
 
       - name: Download target artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: artifact-${{ github.event.inputs.CHAPTER }}-${{ github.event.inputs.EXERCISE }}-results
 

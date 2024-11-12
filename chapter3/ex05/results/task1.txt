@@ -3,28 +3,28 @@ Status: PASSED!
 Check: 1
 Test: Run the program to produce *Ch3_Ex5Output.dat*
 Reason: None
-Timestamp: 2024-11-12 17:56:01.274201
+Timestamp: 2024-11-12 17:59:21.743385
 
 Status: PASSED!
 Check: 2
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 1
 Reason: Andrew Miller 69079.36 + ` was found in the program.None
-Timestamp: 2024-11-12 17:56:01.274678
+Timestamp: 2024-11-12 17:59:21.743753
 
 Status: PASSED!
 Check: 3
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 2
 Reason: Sheila Green 80446.11 + ` was found in the program.None
-Timestamp: 2024-11-12 17:56:01.274956
+Timestamp: 2024-11-12 17:59:21.743959
 
 Status: PASSED!
 Check: 4
 Test: Check *Ch3_Ex5Output.dat* for correct data, line 3
 Reason: Amit Sethi 79469.43 + ` was found in the program.None
-Timestamp: 2024-11-12 17:56:01.275208
+Timestamp: 2024-11-12 17:59:21.744144
 
 Status: PASSED!
 Check: 5
 Test: Did not hard code values into the program
 Reason: 69079.36 + ` was found in the program.None
-Timestamp: 2024-11-12 17:56:01.275531
+Timestamp: 2024-11-12 17:59:21.744373

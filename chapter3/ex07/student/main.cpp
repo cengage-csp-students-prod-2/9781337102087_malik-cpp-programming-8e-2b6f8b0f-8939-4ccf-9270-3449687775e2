@@ -26,7 +26,7 @@ int main() {
     
     averageDailyBalance = (netBalance * d1 - payment * d2) / d1;
     interest = averageDailyBalance * interestRate;
-    cout<<averageDailyBalance;
+    cout<<interest;
 
     return 0;
 }

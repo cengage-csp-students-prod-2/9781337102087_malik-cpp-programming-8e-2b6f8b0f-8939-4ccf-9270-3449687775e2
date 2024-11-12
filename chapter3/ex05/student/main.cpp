@@ -21,12 +21,13 @@ int main() {
 
     // Request the filename for output
     // inFile.open("Ch3_Ex5Data.txt",ios::in);
-cout<<"Pease input filename"<<endl;
+    cout<<"Pease input filename"<<endl;
     cin>>fileName;
    
+    inFile.open(fileName);
     outFile.open("Ch3_Ex5Output.dat", ios::out);
     //set the precision for the output file
-    outFile <<fixed <<setprecision(2)<<endl;
+    outFile <<fixed <<setprecision(2);
    
 
     

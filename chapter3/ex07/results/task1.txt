@@ -1,26 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Correct interest output test 1
-Reason: Unable to find '['856.83']' in the program's output.
-Enter netBalance
-Enter d1
-Enter payment
-Enter d2
-Enter interestRate
-88.33.
-Error : AssertionError - Unable to find a number close enough to 856.83 (+/-0.00) in the program's output.
-Timestamp: 2024-11-12 18:20:55.946191
+Reason: None
+Timestamp: 2024-11-12 18:22:33.896885
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Correct interest output test 2
-Reason: Unable to find '['3080.38']' in the program's output.
-Enter netBalance
-Enter d1
-Enter payment
-Enter d2
-Enter interestRate
-250.44.
-Error : AssertionError - Unable to find a number close enough to 3080.38 (+/-0.00) in the program's output.
-Timestamp: 2024-11-12 18:20:55.948692
+Reason: None
+Timestamp: 2024-11-12 18:22:33.899101

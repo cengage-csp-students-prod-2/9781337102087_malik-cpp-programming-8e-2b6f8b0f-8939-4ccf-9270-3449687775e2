@@ -20,20 +20,14 @@ int main() {
     double updatedSalary;
 
     // Request the filename for output
-    inFile.open("Ch3_Ex5Data.txt",ios::in);
+    // inFile.open("Ch3_Ex5Data.txt",ios::in);
+cout<<"Pease input filename"<<endl;
+    cin>>fileName;
    
     outFile.open("Ch3_Ex5Output.dat", ios::out);
     //set the precision for the output file
     outFile <<fixed <<setprecision(2)<<endl;
-    if(!outFile){
-        cout<<"File creation failed";
-
-    }
-    else{
-        cout<<"New file created \n";
-        
-    }
-
+   
 
     
     

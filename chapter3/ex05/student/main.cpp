@@ -43,31 +43,17 @@ int main() {
     if(!inFile or !outFile){
         cout<<"No such file";        
     }
-    else{
         // read the data from file 
-        while(inFile){
-            inFile>>lastName;
-            inFile>>firstName;
-            inFile>>salary;
-            inFile>>increasedRate;
+  // Process each line in the input file
+    while (inFile >> lastName >> firstName >> salary >> increasedRate) {
+        // Calculate updated salary
+        updatedSalary = salary * (1 + increasedRate / 100);
 
-
-            
-            cout<<increasedRate;
-            // calculating Updating salary
-       
-            updatedSalary = salary * ( 1 + increasedRate / 100 );
-            
-        
-            // Writibg the data to the outputfile
-
-            outFile<< firstName<<" ";
-            outFile<< lastName <<" ";
-            outFile<< updatedSalary<<endl ;
-        
-
-        }    
+        // Write the data to the output file
+        outFile << firstName << " " << lastName << " " << updatedSalary << endl;
     }
+    cout << "Data processed and saved to 'Ch3_Ex5Output.dat'.\n";
+
     inFile.close();
     outFile.close();
 

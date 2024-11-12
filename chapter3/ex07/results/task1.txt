@@ -10,7 +10,7 @@ Enter d2
 Enter interestRate
 88.33.
 Error : AssertionError - Unable to find a number close enough to 856.83 (+/-0.00) in the program's output.
-Timestamp: 2024-11-12 18:20:49.325227
+Timestamp: 2024-11-12 18:20:55.946191
 
 Status: FAILED!
 Check: 2
@@ -23,4 +23,4 @@ Enter d2
 Enter interestRate
 250.44.
 Error : AssertionError - Unable to find a number close enough to 3080.38 (+/-0.00) in the program's output.
-Timestamp: 2024-11-12 18:20:49.327479
+Timestamp: 2024-11-12 18:20:55.948692

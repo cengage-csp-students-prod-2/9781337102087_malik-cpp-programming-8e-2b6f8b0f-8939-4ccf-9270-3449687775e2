@@ -1,0 +1,3 @@
+Parker Robert 12345.67 8
+Longabaugh Harry 98765.43 2
+Place Etna 74900.50 6.1

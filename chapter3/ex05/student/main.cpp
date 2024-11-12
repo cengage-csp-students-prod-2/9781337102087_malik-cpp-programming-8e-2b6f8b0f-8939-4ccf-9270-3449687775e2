@@ -37,9 +37,9 @@ int main() {
 
     
     
-    if(!inFile or !outFile){
-        cout<<"No such file";        
-    }
+    // if(!inFile or !outFile){
+    //     cout<<"No such file";        
+    // }
         // read the data from file 
   // Process each line in the input file
     while (inFile >> lastName >> firstName >> salary >> increasedRate) {

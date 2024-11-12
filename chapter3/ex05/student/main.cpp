@@ -15,8 +15,8 @@ int main() {
     string firstName; // for first name
     string lastName; //for lastname
     string fileName; // for fileName for output
-    float salary;
-    float increasedRate;
+    double salary;
+    double increasedRate;
     double updatedSalary;
 
     // Request the filename for output

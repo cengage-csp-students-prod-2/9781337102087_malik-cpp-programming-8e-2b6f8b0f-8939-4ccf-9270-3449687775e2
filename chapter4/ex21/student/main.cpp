@@ -29,7 +29,7 @@ int main() {
     else
         cout << "The line is decreasing."<< endl;
 
-
+    }
 
 return 0;
 }

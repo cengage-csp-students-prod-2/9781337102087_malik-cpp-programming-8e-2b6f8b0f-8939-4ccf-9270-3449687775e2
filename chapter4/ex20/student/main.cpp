@@ -7,7 +7,12 @@ using namespace std;
 
 int main() {
     // Write your main here
-    const double d10 = 10, d20= 20, d30 =30, n3 = 5 ;
+    const double TWENTY_TO_TWENTYNINE_ROOMS_DIS = 0.20;
+    const double TEN_TO_NINTEEN_ROOMS_DIS = 0.10;
+    const double THIRTY_OR_MORE_ROOMS_DISC = 0.30;
+    const double THREE_DAYS_ROOM_DISC = 0.05;
+
+
     int no_of_rooms;
     int no_of_days;
     double cost_of_room;
@@ -35,17 +40,17 @@ int main() {
     // output
     cout<<"The cost of renting one room are: "<<cost_of_room<<endl;
     if (no_of_rooms >=10 && no_of_rooms < 20 )
-        discount = cost_of_room * ( d10 /100);
+        discount = cost_of_room * ( TEN_TO_NINTEEN_ROOMS_DIS /100);
     else if( no_of_rooms >=20 && no_of_rooms<30)
-        discount = cost_of_room*( d20/100);
+        discount = cost_of_room*( TWENTY_TO_TWENTYNINE_ROOMS_DIS/100);
     else if( no_of_rooms >=30)
-        discount = cost_of_room*(d30/100);
+        discount = cost_of_room*(THIRTY_OR_MORE_ROOMS_DISC/100);
     else{
         discount = 0;
         cout<<"No discount availiable according to no of rooms booked."<<endl;
     }
     if (no_of_days>=3)
-        discount_no_of_room = cost_of_room*(n3/100);
+        discount_no_of_room = cost_of_room*(THREE_DAYS_ROOM_DISC/100);
     else
         discount_no_of_room = 0;
 

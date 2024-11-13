@@ -21,7 +21,7 @@ int main() {
     m = (y2 - y1) / (x2 - x1);
     b = -m * x1 + y1;
     cout << "The line passing through the points (" << x1 << ", " << y1<< ") and (" << x2 << ", " << y2 << ") is y = "<< m << "x + " << b << endl;
-
+    }
     if (m == 0)
         cout << "It is a horizontal line." << endl;
     else if (m > 0)
@@ -29,7 +29,7 @@ int main() {
     else
         cout << "The line is decreasing."<< endl;
 
-    }
+    
 
 return 0;
 }

@@ -8,12 +8,12 @@ The number of rooms booked are:
 The number of days booked are: 
 The sales task in percentage: 
 The cost of renting one room are: 278
-The discount on each room as a percent is 0.0125
+The discount on each room as a percent is 0.15
 The number of rooms booked are 12
-the number of days the rooms booked are 12
-The total cost of the rooms 10006.7
-The sales tax is 875.591
-The total billing amount is 10882.3
+the number of days the rooms booked are 3
+The total cost of the rooms 9992.99
+The sales tax is 874.386
+The total billing amount is 10867.4
 .
 Error : AssertionError - Unable to find a number close enough to 15.0 (+/-0.10) in the program's output.
-Timestamp: 2024-11-13 10:51:12.290916
+Timestamp: 2024-11-13 11:06:06.055627

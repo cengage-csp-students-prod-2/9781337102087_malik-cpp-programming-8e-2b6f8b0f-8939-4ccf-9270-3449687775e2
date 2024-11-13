@@ -8,7 +8,7 @@ The line passing through the points (3, 4) and (2, 7) is y = -3x + 13
 The line is decreasing.
 .
 Error : AssertionError - Unable to find y = -3.00x + 13.00 in the program's output.
-Timestamp: 2024-11-13 13:04:38.196761
+Timestamp: 2024-11-13 13:06:45.887561
 
 Status: FAILED!
 Check: 2
@@ -19,17 +19,17 @@ The line passing through the points (2, 2) and (4, 4) is y = 1x + 0
 The line is increasing.
 .
 Error : AssertionError - Unable to find y = 1.00x + 0.00 in the program's output.
-Timestamp: 2024-11-13 13:04:38.198932
+Timestamp: 2024-11-13 13:06:45.889764
 
 Status: FAILED!
 Check: 3
 Test: Vertical test 1
 Reason: Unable to find '['x = 2.00', 'vertical']' in the program's output.
 Input Input x1, Input y1, Input x2, Input y2
-The line passing through the points (2, 19) and (2, 100) is x = 2It is a vertical line.
+The line passing through the points (2, 19) and (2, 100) is x = 2 and it is a vertical line.
 .
 Error : AssertionError - Unable to find x = 2.00 in the program's output.
-Timestamp: 2024-11-13 13:04:38.201036
+Timestamp: 2024-11-13 13:06:45.891862
 
 Status: FAILED!
 Check: 4
@@ -40,4 +40,4 @@ The line passing through the points (4, 11) and (432, 11) is y = 0x + 11
 It is a horizontal line.
 .
 Error : AssertionError - Unable to find y = 0.00x + 11.00 in the program's output.
-Timestamp: 2024-11-13 13:04:38.203151
+Timestamp: 2024-11-13 13:06:45.893982

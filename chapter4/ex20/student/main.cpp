@@ -13,8 +13,8 @@ int main() {
     const double THREE_DAYS_ROOM_DISC = 0.05;
 
 
-    int no_of_rooms;
-    int no_of_days;
+    double no_of_rooms;
+    double no_of_days;
     double cost_of_room;
     double sales_tax;
     double discount;

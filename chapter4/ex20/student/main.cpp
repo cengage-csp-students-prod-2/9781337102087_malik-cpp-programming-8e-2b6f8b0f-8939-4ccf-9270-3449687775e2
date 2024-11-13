@@ -61,7 +61,7 @@ int main() {
 
 
     cout<<"The total cost of the rooms "<< total_cost<<endl;
-    after_sales_tax = total_cost*(ales_tax/100);
+    after_sales_tax = total_cost*(sales_tax/100);
     cout<<"The sales tax is "<< after_sales_tax<<endl;
 
     billing_amount = total_cost*(1+ sales_tax/100);

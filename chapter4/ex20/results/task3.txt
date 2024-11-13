@@ -1,19 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: 10 to 19 rooms test 1
-Reason: Unable to find '['278.0', '15.0', '12', '3', '8506.8', '744.3', '9251.1']' in the program's output.
-The cost of renting one room are: 
-The number of rooms booked are: 
-The number of days booked are: 
-The sales task in percentage: 
-The cost of renting one room are: 278
-The discount on each room as a percent is 0.15
-The number of rooms booked are 12
-the number of days the rooms booked are 3
-The total cost of the rooms 9992.99
-The sales tax is 874.386
-The total billing amount is 10867.4
-.
-Error : AssertionError - Unable to find a number close enough to 15.0 (+/-0.10) in the program's output.
-Timestamp: 2024-11-13 11:06:57.410334
+Reason: None
+Timestamp: 2024-11-13 11:24:52.645218

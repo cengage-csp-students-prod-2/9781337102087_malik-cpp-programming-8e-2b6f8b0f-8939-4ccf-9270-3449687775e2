@@ -13,17 +13,19 @@ int main() {
     const double THREE_DAYS_ROOM_DISC = 0.05;
 
 
-    double no_of_rooms;
-    double no_of_days;
+    int no_of_rooms;
+    int no_of_days;
     double cost_of_room;
     double sales_tax;
-    double discount;
+    double discount=0.0;
     double discount_on_each_room;
     double discount_no_of_room;
     double discount_in_percent;
     double total_cost;
     double after_sales_tax;
     double billing_amount;
+
+    cout<<fixed<<showpoint<<setprecision(2);
 
     cout<<"The cost of renting one room are: "<<endl;
     cin>>cost_of_room;
@@ -46,31 +48,29 @@ int main() {
     else if( no_of_rooms >=30)
         discount = THIRTY_OR_MORE_ROOMS_DISC;
     else{
-        discount = 0;
         cout<<"No discount availiable according to no of rooms booked."<<endl;
     }
     if (no_of_days>=3)
         discount_no_of_room = THREE_DAYS_ROOM_DISC;
-    else
-        discount_no_of_room = 0;
+    
 
    
 
     discount_in_percent = ((discount+discount_no_of_room));
-    discount_on_each_room = cost_of_room *(1-discount_in_percent/100);
+    discount_on_each_room = cost_of_room *discount_in_percent;
 
-    cout<<"The discount on each room as a percent is "<<discount_in_percent<<endl;
+    cout<<"The discount on each room as a percent is "<<discount_in_percent*100<<endl;
     cout<<"The number of rooms booked are "<<no_of_rooms<<endl;
     cout<<"the number of days the rooms booked are "<<no_of_days<<endl;
 
-    total_cost = discount_on_each_room* no_of_days * no_of_rooms;
+    total_cost = (cost_of_room-discount_on_each_room)* no_of_days * no_of_rooms;
 
 
     cout<<"The total cost of the rooms "<< total_cost<<endl;
     after_sales_tax = total_cost*(sales_tax/100);
     cout<<"The sales tax is "<< after_sales_tax<<endl;
 
-    billing_amount = total_cost*(1+ sales_tax/100);
+    billing_amount = total_cost+ after_sales_tax;
     cout<<"The total billing amount is "<<billing_amount<<endl;
 
     return 0;

@@ -1,7 +1,19 @@
 
 Status: FAILED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-11-13 10:43:01.284405
+Test: 30 or more rooms test 1
+Reason: Unable to find '['560.0', '30.0', '47', '1', '18424.0', '1400.2', '19824.2']' in the program's output.
+The cost of renting one room are: 
+The number of rooms booked are: 
+The number of days booked are: 
+The sales task in percentage: 
+The cost of renting one room are: 560
+The discount on each room as a percent is 0.638298
+The number of rooms booked are 47
+the number of days the rooms booked are 47
+The total cost of the rooms 26152
+The sales tax is 1987.55
+The total billing amount is 28139.6
+.
+Error : AssertionError - Unable to find a number close enough to 30.0 (+/-0.10) in the program's output.
+Timestamp: 2024-11-13 10:44:15.860630

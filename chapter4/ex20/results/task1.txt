@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: **0.10** stored as constant
 Reason: const double TEN_TO_NINTEEN_ROOMS_DIS = 0.10; + ` was found in the program.None
-Timestamp: 2024-11-13 10:48:10.650523
+Timestamp: 2024-11-13 10:51:12.285290
 
 Status: PASSED!
 Check: 2
 Test: **0.20** stored as a constant
 Reason: const double TWENTY_TO_TWENTYNINE_ROOMS_DIS = 0.20; + ` was found in the program.None
-Timestamp: 2024-11-13 10:48:10.650939
+Timestamp: 2024-11-13 10:51:12.285671
 
 Status: PASSED!
 Check: 3
 Test: **0.30** stored as a constant
 Reason: const double THIRTY_OR_MORE_ROOMS_DISC = 0.30; + ` was found in the program.None
-Timestamp: 2024-11-13 10:48:10.651279
+Timestamp: 2024-11-13 10:51:12.285984
 
 Status: PASSED!
 Check: 4
 Test: **0.05** stored as a constant
 Reason: const double THREE_DAYS_ROOM_DISC = 0.05; + ` was found in the program.None
-Timestamp: 2024-11-13 10:48:10.651614
+Timestamp: 2024-11-13 10:51:12.286294

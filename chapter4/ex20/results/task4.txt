@@ -16,4 +16,4 @@ The sales tax is 781.962
 The total billing amount is 8761.16
 .
 Error : AssertionError - Unable to find a number close enough to 1 (+/-0.10) in the program's output.
-Timestamp: 2024-11-13 10:48:10.659059
+Timestamp: 2024-11-13 10:51:12.293033

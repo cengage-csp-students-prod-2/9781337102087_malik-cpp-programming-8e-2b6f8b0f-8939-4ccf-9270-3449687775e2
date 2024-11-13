@@ -16,7 +16,7 @@ int main() {
     cin>>x1>>y1>>x2>>y2;
 
     if(x1 == x2)
-    cout << "The line passing through the points (" << x1 << ", " << y1<< ") and (" << x2 << ", " << y2 << ") is x = " << x1 << "It is a vertical line." << endl;
+    cout << "The line passing through the points (" << x1 << ", " << y1<< ") and (" << x2 << ", " << y2 << ") is x = " << x1 << " and it is a vertical line." << endl;
     else {
     m = (y2 - y1) / (x2 - x1);
     b = -m * x1 + y1;

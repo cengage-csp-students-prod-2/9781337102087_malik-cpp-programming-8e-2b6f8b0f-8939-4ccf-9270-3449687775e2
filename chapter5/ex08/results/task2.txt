@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Input `firstNum` (Part a)
 Reason: cin.+firstNum + ` was found in the program.None
-Timestamp: 2024-11-15 12:03:32.569032
+Timestamp: 2024-11-15 12:07:20.858716
 
 Status: PASSED!
 Check: 2
 Test: Input `secondNum` (Part a)
 Reason: cin.+secondNum + ` was found in the program.None
-Timestamp: 2024-11-15 12:03:32.569279
+Timestamp: 2024-11-15 12:07:20.858951

@@ -1,0 +1,30 @@
+
+Status: FAILED!
+Check: 1
+Test: Prime test 1
+Reason: Unable to find '['prime']' in the program's output.
+Enter a num betwen 1-1000: 
+The num is non-proime number: 3579111317192329.
+Error : AssertionError - Unable to find prime in the program's output.
+Timestamp: 2024-11-15 09:28:26.310323
+
+Status: FAILED!
+Check: 2
+Test: Prime test 2
+Reason: Unable to find '['prime']' in the program's output.
+Enter a num betwen 1-1000: 
+The num is non-proime number: 3579111317192329.
+Error : AssertionError - Unable to find prime in the program's output.
+Timestamp: 2024-11-15 09:28:26.312720
+
+Status: PASSED!
+Check: 3
+Test: Prime test 3
+Reason: None
+Timestamp: 2024-11-15 09:28:26.314915
+
+Status: PASSED!
+Check: 4
+Test: Prime test 4
+Reason: None
+Timestamp: 2024-11-15 09:28:26.317114

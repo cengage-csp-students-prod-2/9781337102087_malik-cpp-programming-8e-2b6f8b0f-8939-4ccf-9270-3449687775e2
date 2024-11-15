@@ -1,0 +1,38 @@
+
+Status: FAILED!
+Check: 1
+Test: Not prime test 1-1
+Reason: Unable to find '['(not|non)', 'prime']' in the program's output.
+Enter a num betwen 1-1000: 
+The num is prime
+.
+Error : AssertionError - Unable to find (not|non) in the program's output.
+Timestamp: 2024-11-15 09:28:26.319478
+
+Status: FAILED!
+Check: 2
+Test: Not prime test 1-2
+Reason: Unable to find '['2', '5']' in the program's output.
+Enter a num betwen 1-1000: 
+The num is prime
+.
+Error : AssertionError - Unable to find a number close enough to 2 (+/-0.00) in the program's output.
+Timestamp: 2024-11-15 09:28:26.321841
+
+Status: FAILED!
+Check: 3
+Test: Not prime test 2-1
+Reason: Unable to find '['(not|non)', 'prime']' in the program's output.
+Enter a num betwen 1-1000: 
+The num is non-proime number: 3579111317192329.
+Error : AssertionError - Unable to find prime in the program's output.
+Timestamp: 2024-11-15 09:28:26.324075
+
+Status: FAILED!
+Check: 4
+Test: Not prime test 2-2
+Reason: Unable to find '['2']' in the program's output.
+Enter a num betwen 1-1000: 
+The num is non-proime number: 3579111317192329.
+Error : AssertionError - Unable to find a number close enough to 2 (+/-0.00) in the program's output.
+Timestamp: 2024-11-15 09:28:26.326228

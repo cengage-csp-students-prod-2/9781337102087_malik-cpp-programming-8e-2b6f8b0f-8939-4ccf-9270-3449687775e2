@@ -1,52 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Prime test 1
-Reason: Unable to find '['prime']' in the program's output.
-Enter a num betwen 1-1000: 
-The num is non-proime number: 2
-3
-5
-7
-11
-13
-17
-19
-23
-29
-31
-.
-Error : AssertionError - Unable to find prime in the program's output.
-Timestamp: 2024-11-15 09:50:06.552969
+Reason: None
+Timestamp: 2024-11-15 09:56:40.271830
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Prime test 2
-Reason: Unable to find '['prime']' in the program's output.
-Enter a num betwen 1-1000: 
-The num is non-proime number: 2
-3
-5
-7
-11
-13
-17
-19
-23
-29
-31
-.
-Error : AssertionError - Unable to find prime in the program's output.
-Timestamp: 2024-11-15 09:50:06.555172
+Reason: None
+Timestamp: 2024-11-15 09:56:40.274035
 
 Status: PASSED!
 Check: 3
 Test: Prime test 3
 Reason: None
-Timestamp: 2024-11-15 09:50:06.557295
+Timestamp: 2024-11-15 09:56:40.276124
 
 Status: PASSED!
 Check: 4
 Test: Prime test 4
 Reason: None
-Timestamp: 2024-11-15 09:50:06.559372
+Timestamp: 2024-11-15 09:56:40.278225

@@ -8,7 +8,7 @@ The line passing through the points (3.00, 4.00) and (2.00, 7.00) is y = -3.00x 
 The line is decreasing.
 .
 Error : AssertionError - Unable to find y = -3.00x + 13.00 in the program's output.
-Timestamp: 2024-11-15 08:56:16.126487
+Timestamp: 2024-11-15 08:57:19.808978
 
 Status: FAILED!
 Check: 2
@@ -19,13 +19,13 @@ The line passing through the points (2.00, 2.00) and (4.00, 4.00) is y = 1.00x +
 The line is increasing.
 .
 Error : AssertionError - Unable to find y = 1.00x + 0.00 in the program's output.
-Timestamp: 2024-11-15 08:56:16.128689
+Timestamp: 2024-11-15 08:57:19.811467
 
 Status: PASSED!
 Check: 3
 Test: Vertical test 1
 Reason: None
-Timestamp: 2024-11-15 08:56:16.130823
+Timestamp: 2024-11-15 08:57:19.813696
 
 Status: FAILED!
 Check: 4
@@ -36,4 +36,4 @@ The line passing through the points (4.00, 11.00) and (432.00, 11.00) is y = 0.0
 It is a horizontal line.
 .
 Error : AssertionError - Unable to find y = 0.00x + 11.00 in the program's output.
-Timestamp: 2024-11-15 08:56:16.132982
+Timestamp: 2024-11-15 08:57:19.815890

@@ -8,7 +8,7 @@ The line passing through the points (3, 4) and (2, 7) is y = -3x + 21
 The line is decreasing.
 .
 Error : AssertionError - Unable to find y = -3.00x + 13.00 in the program's output.
-Timestamp: 2024-11-13 13:15:41.213679
+Timestamp: 2024-11-15 08:54:12.086320
 
 Status: FAILED!
 Check: 2
@@ -19,7 +19,7 @@ The line passing through the points (2, 2) and (4, 4) is y = 1x + -4
 The line is increasing.
 .
 Error : AssertionError - Unable to find y = 1.00x + 0.00 in the program's output.
-Timestamp: 2024-11-13 13:15:41.215858
+Timestamp: 2024-11-15 08:54:12.089450
 
 Status: FAILED!
 Check: 3
@@ -30,7 +30,7 @@ The line passing through the points (2, 19) and (2, 100) is x = 2 and it is a ve
 The line is increasing.
 .
 Error : AssertionError - Unable to find x = 2.00 in the program's output.
-Timestamp: 2024-11-13 13:15:41.218004
+Timestamp: 2024-11-15 08:54:12.092672
 
 Status: FAILED!
 Check: 4
@@ -41,4 +41,4 @@ The line passing through the points (4, 11) and (432, 11) is y = 0x + -0
 It is a horizontal line.
 .
 Error : AssertionError - Unable to find y = 0.00x + 11.00 in the program's output.
-Timestamp: 2024-11-13 13:15:41.220123
+Timestamp: 2024-11-15 08:54:12.095716

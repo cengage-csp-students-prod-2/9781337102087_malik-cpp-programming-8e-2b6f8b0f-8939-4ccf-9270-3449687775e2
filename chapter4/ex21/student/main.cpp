@@ -19,7 +19,7 @@ int main() {
     cout << "The line passing through the points (" << x1 << ", " << y1<< ") and (" << x2 << ", " << y2 << ") is x = " << x1 << " and it is a vertical line." << endl;
     else {
     m = (y2 - y1) / (x2 - x1);
-    b = -m * (x1 + y1);
+    b = -m * x1 + y1;
     cout<<fixed<<showpoint<<setprecision(2);
     cout << "The line passing through the points (" << x1 << ", " << y1<< ") and (" << x2 << ", " << y2 << ") is y = "<< m << "x + " << b << endl;
     }

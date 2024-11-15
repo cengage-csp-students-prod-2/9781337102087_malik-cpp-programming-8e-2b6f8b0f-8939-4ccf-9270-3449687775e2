@@ -1,0 +1,30 @@
+
+Status: FAILED!
+Check: 1
+Test: Test case 1
+Reason: Unable to find '['pi = 3.25237']' in the program's output.
+Enter the value of n: 
+pi = 4
+.
+Error : AssertionError - Unable to find pi = 3.25237 in the program's output.
+Timestamp: 2024-11-15 10:11:53.412855
+
+Status: FAILED!
+Check: 2
+Test: Test case 2
+Reason: Unable to find '['pi = 3.13959']' in the program's output.
+Enter the value of n: 
+pi = 4
+.
+Error : AssertionError - Unable to find pi = 3.13959 in the program's output.
+Timestamp: 2024-11-15 10:11:53.415083
+
+Status: FAILED!
+Check: 3
+Test: Test case 3
+Reason: Unable to find '['pi = 3.14059']' in the program's output.
+Enter the value of n: 
+pi = 4
+.
+Error : AssertionError - Unable to find pi = 3.14059 in the program's output.
+Timestamp: 2024-11-15 10:11:53.417189

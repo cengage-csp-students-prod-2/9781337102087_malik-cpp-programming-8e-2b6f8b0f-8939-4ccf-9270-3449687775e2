@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: `while` loops used
+Reason: while (counter <= secondNum) + ` was found in the program.None
+Timestamp: 2024-11-15 12:03:32.568704

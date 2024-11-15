@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Odd number output (Part b)
+Reason: None
+Timestamp: 2024-11-15 12:03:32.571845
+
+Status: PASSED!
+Check: 2
+Test: Odd number output case 2 (Part b)
+Reason: None
+Timestamp: 2024-11-15 12:03:32.574042

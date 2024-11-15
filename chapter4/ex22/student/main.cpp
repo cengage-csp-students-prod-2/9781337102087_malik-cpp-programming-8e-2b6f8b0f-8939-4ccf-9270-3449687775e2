@@ -11,9 +11,7 @@ int main() {
     cin>>num;
     int c = 0;
     for(int i=0;i<11;i++){
-        cout<<numbers[i]<<endl;
         if(num % numbers[i]==0){
-            cout<<numbers[i];
             c = c+1;}
     }
     if(c== 1){
@@ -21,8 +19,8 @@ int main() {
     }
     else{
         cout<<"The num is non-proime number: ";
-        for(int i=1;i<11;i++){
-            cout<<numbers[i];
+        for(int i=0;i<11;i++){
+            cout<<numbers[i]<<endl;
     }}
 
     return 0;

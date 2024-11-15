@@ -26,12 +26,15 @@ int main() {
     }
     cout<<endl;
     cout<<"The sum of all even numbere between "<<firstNum<<" and "<<secondNum<<" is "<< sum<<endl;
+    for(int i =1; i<11; i++){
+        cout<<i*i<<" ";
+    }
     cout<<firstNum<<" "<<secondNum<<endl;
     cout<<"the sum of the square of the odd numbers between "<<firstNum<<" and "<<secondNum<<" is "<< sum_odd_sqr<<endl;
-    string word = "uppercase";
+    string word = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     int count =0;
-    while (count<=9){
-        cout<<word[count];
+    while (count<=26){
+        cout<<word[count]<<" ";
         count++;
     }
 

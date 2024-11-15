@@ -14,7 +14,7 @@ int main() {
 
     cout<<"Input Input x1, Input y1, Input x2, Input y2"<<endl;
     cin>>x1>>y1>>x2>>y2;
-
+    cout<<fixed<<showpoint<<setprecision(2);
     if(x1 == x2)
     cout << "The line passing through the points (" << x1 << ", " << y1<< ") and (" << x2 << ", " << y2 << ") is x = " << x1 << " and it is a vertical line." << endl;
     else {

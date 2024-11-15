@@ -27,7 +27,7 @@ int main() {
     cout<<endl;
     cout<<"The sum of all even numbere between "<<firstNum<<" and "<<secondNum<<" is "<< sum<<endl;
     for(int i =1; i<11; i++){
-        cout<<i*i<<" ";
+        cout<<i<<" "<<i*i<<" ";
     }
     cout<<firstNum<<" "<<secondNum<<endl;
     cout<<"the sum of the square of the odd numbers between "<<firstNum<<" and "<<secondNum<<" is "<< sum_odd_sqr<<endl;

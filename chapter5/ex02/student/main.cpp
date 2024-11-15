@@ -22,7 +22,7 @@ int main()
     
     }}
 
-    cout<<fixed<<showpoint<<setprecision(15);
+    cout<<fixed<<showpoint<<setprecision(5);
     pi = 4 * pi;
     
     

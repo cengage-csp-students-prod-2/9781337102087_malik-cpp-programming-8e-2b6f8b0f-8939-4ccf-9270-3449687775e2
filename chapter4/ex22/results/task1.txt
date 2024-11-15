@@ -4,27 +4,49 @@ Check: 1
 Test: Prime test 1
 Reason: Unable to find '['prime']' in the program's output.
 Enter a num betwen 1-1000: 
-The num is non-proime number: 3579111317192329.
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+The num is non-proime number: 35711131719232931.
 Error : AssertionError - Unable to find prime in the program's output.
-Timestamp: 2024-11-15 09:28:26.310323
+Timestamp: 2024-11-15 09:34:09.176850
 
 Status: FAILED!
 Check: 2
 Test: Prime test 2
 Reason: Unable to find '['prime']' in the program's output.
 Enter a num betwen 1-1000: 
-The num is non-proime number: 3579111317192329.
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+The num is non-proime number: 35711131719232931.
 Error : AssertionError - Unable to find prime in the program's output.
-Timestamp: 2024-11-15 09:28:26.312720
+Timestamp: 2024-11-15 09:34:09.179052
 
 Status: PASSED!
 Check: 3
 Test: Prime test 3
 Reason: None
-Timestamp: 2024-11-15 09:28:26.314915
+Timestamp: 2024-11-15 09:34:09.181171
 
 Status: PASSED!
 Check: 4
 Test: Prime test 4
 Reason: None
-Timestamp: 2024-11-15 09:28:26.317114
+Timestamp: 2024-11-15 09:34:09.183300

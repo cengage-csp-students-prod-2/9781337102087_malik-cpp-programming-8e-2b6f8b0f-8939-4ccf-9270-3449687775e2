@@ -1,8 +1,39 @@
 #include <iostream>
+#include<string>
 
 using namespace std;
 
 int main() {
-    // Write your main here
+    int firstNum, secondNum;
+    
+    cout<<"Input two positvie num first num should be smallar";
+    cin>>firstNum;
+    cout<<" ";
+    cin>>secondNum;
+    int a = firstNum;
+    int sum = 0;
+    int sum_odd_sqr = 0;
+    while (a<= secondNum){
+        if (a%2 == 1){
+            cout<<a<<" ";
+            sum_odd_sqr = sum_odd_sqr + (a*a);
+        } else{
+            sum  = sum + a;
+
+        }
+        a++;
+
+    }
+    cout<<endl;
+    cout<<"The sum of all even numbere between "<<firstNum<<" and "<<secondNum<<" is "<< sum<<endl;
+    cout<<firstNum<<" "<<secondNum<<endl;
+    cout<<"the sum of the square of the odd numbers between "<<firstNum<<" and "<<secondNum<<" is "<< sum_odd_sqr<<endl;
+    string word = "uppercase";
+    int count =0;
+    while (count<=9){
+        cout<<word[count];
+        count++;
+    }
+
     return 0;
 }

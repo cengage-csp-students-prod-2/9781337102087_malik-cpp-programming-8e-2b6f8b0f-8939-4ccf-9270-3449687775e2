@@ -1,70 +1,66 @@
 #include <iostream>
-#include<cmath>
+#include <iomanip>
+#include <cmath>
 
 using namespace std;
 
-double interest(double r , double m){
-    return r/m;
+// Function to calculate periodic payment
+double calculate_periodic_payment(double L, double r, double m, double t) {
+    double i = r / m; // Interest rate per period
+    double n = m * t; // Total number of payments
+    double denominator = 1 - pow(1 + i, -n); // Denominator of the formula
+    return (L * i) / denominator; // Periodic payment formula
 }
 
-double periodic_payment(double L,double i ,double m,double t){
-double a = pow((1+i),-(m*t));
-double deno = 1-a;
-return (L*i)/deno;
-
-}
-
-double unpaid(double R, double i , double m, double t, double k ){
-    double expo = -((m*t)-k);
-    double b = pow((1+i),expo);
-    return R*(1-b)/i;
-
+// Function to calculate unpaid balance
+double calculate_unpaid_balance(double L, double r, double m, double t, int k) {
+    double i = r / m; // Interest rate per period
+    double n = m * t; // Total number of payments
+    double R = calculate_periodic_payment(L, r, m, t); // Calculate the periodic payment
+    double unpaid_balance = (L * pow(1 + i, k)) - (R * (pow(1 + i, k) - 1) / i); // Unpaid balance formula
+    return unpaid_balance;
 }
 
 int main() {
-    // Write your main here
-    double L;
-    cout<<"Enter the loan amount: ";
-    cin>>L;
-    cout<<endl;
+    char choice;
 
-    double r;
-    cout<<"Enter the interest rate per year as a percentage: ";
-    cin>>r;
-    cout<<endl;
+    do {
+        // Input values
+        cout << "Enter (Y/y) to find the periodic payment and unpaid balance after certain payments: ";
+        cin >> choice;
 
-    double m;
-    cout<<"Enter the number of payments per year: ";
-    cin>>m;
-    cout<<endl;
+        if (choice == 'Y' || choice == 'y') {
+            double L, r, m, t;
+            int k;
 
-    double t;
-    cout<<"Enter the number of years for the loan: ";
-    cin>>t;
-    cout<<endl;
+            cout << "Enter the loan amount: ";
+            cin >> L;
 
-    // Output 1
-    double i = interest(r,m);
-    cout<<i<<endl;
+            cout << "Enter the interest rate per year as a percentage: ";
+            cin >> r;
+            r /= 100; // Convert percentage to decimal
 
-    double ans = periodic_payment(L, i , m, t);
-    cout<<"The periodic payment is: "<<ans<<endl;
+            cout << "Enter the number of payments per year: ";
+            cin >> m;
 
-    
+            cout << "Enter the number of years for the loan: ";
+            cin >> t;
 
-    double k;
-    cout<<"Enter the number of payments made: ";
-    cin>>k;
-    cout<<endl;
+            // Calculate the periodic payment
+            double R = calculate_periodic_payment(L, r, m, t);
+            cout << fixed << setprecision(2);
+            cout << "The periodic payment is: " << R << endl;
 
+            // Input the number of payments made
+            cout << "Enter the number of payments made: ";
+            cin >> k;
 
-    // output 2
-    double ans2 = unpaid(ans, i, m, t, k);
-    cout<<"The unpaid balance after 20 payment(s) is: "<<ans2;
+            // Calculate the unpaid balance
+            double unpaid_balance = calculate_unpaid_balance(L, r, m, t, k);
+            cout << "The unpaid balance after " << k << " payment(s) is: " << unpaid_balance << endl;
+        }
+    } while (choice == 'Y' || choice == 'y');
 
-
-    
-
-
+    cout << "Program terminated." << endl;
     return 0;
 }

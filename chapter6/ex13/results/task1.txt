@@ -1,0 +1,26 @@
+
+Status: FAILED!
+Check: 1
+Test: Successful Output
+Reason: Unable to find '['19267.89', '81.65']' in the program's output.
+Enter the loan amount: 
+Enter the interest rate per year as a percentage: 
+Enter the number of payments per year: 
+Enter the number of years for the loan: 
+The periodic payment is: -nanEnter the number of payments made: 
+The unpaid balance after 20 payment(s) is: -nan.
+Error : AssertionError - Unable to find a number close enough to 19267.89 (+/-0.00) in the program's output.
+Timestamp: 2024-11-16 03:17:41.617341
+
+Status: FAILED!
+Check: 2
+Test: Successful Output II
+Reason: Unable to find '['284.57', '48358.19']' in the program's output.
+Enter the loan amount: 
+Enter the interest rate per year as a percentage: 
+Enter the number of payments per year: 
+Enter the number of years for the loan: 
+The periodic payment is: -nanEnter the number of payments made: 
+The unpaid balance after 20 payment(s) is: -nan.
+Error : AssertionError - Unable to find a number close enough to 284.57 (+/-0.00) in the program's output.
+Timestamp: 2024-11-16 03:17:41.619636

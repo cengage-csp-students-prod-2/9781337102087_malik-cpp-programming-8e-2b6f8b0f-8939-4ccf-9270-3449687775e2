@@ -8,13 +8,13 @@ double interest(double r , double m){
 }
 
 double periodic_payment(double L,double i ,double m,double t){
-double a = pow((1+i),-m*t);
+double a = pow((1+i),-(m*t));
 return (L*i)/(1-a);
 
 }
 
 double unpaid(double R, double i , double m, double t, double k ){
-    double b = pow((1+i),-(m*t-k));
+    double b = pow((1+i),-((m*t)-k));
     return R*(1-b)/i;
 
 }
@@ -43,6 +43,7 @@ int main() {
 
     // Output 1
     double i = interest(r,m);
+    cout<<i<<endl;
 
     double ans = periodic_payment(L, i , m, t);
     cout<<"The periodic payment is: "<<ans;

@@ -8,10 +8,11 @@ Enter the interest rate per year as a percentage:
 Enter the number of payments per year: 
 Enter the number of years for the loan: 
 1
-The periodic payment is: -nanEnter the number of payments made: 
+The periodic payment is: -nan
+Enter the number of payments made: 
 The unpaid balance after 20 payment(s) is: -nan.
 Error : AssertionError - Unable to find a number close enough to 19267.89 (+/-0.00) in the program's output.
-Timestamp: 2024-11-16 03:21:36.233362
+Timestamp: 2024-11-16 03:27:33.607875
 
 Status: FAILED!
 Check: 2
@@ -22,7 +23,8 @@ Enter the interest rate per year as a percentage:
 Enter the number of payments per year: 
 Enter the number of years for the loan: 
 1
-The periodic payment is: -nanEnter the number of payments made: 
+The periodic payment is: -nan
+Enter the number of payments made: 
 The unpaid balance after 20 payment(s) is: -nan.
 Error : AssertionError - Unable to find a number close enough to 284.57 (+/-0.00) in the program's output.
-Timestamp: 2024-11-16 03:21:36.235738
+Timestamp: 2024-11-16 03:27:33.610166

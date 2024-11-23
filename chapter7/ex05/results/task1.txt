@@ -1,0 +1,24 @@
+
+Status: PASSED!
+Check: 1
+Test: Contains `getData` function
+Reason: void getData( + ` was found in the program.None
+Timestamp: 2024-11-23 22:24:24.574665
+
+Status: PASSED!
+Check: 2
+Test: Contains `taxAmount` function
+Reason: double taxAmount( + ` was found in the program.None
+Timestamp: 2024-11-23 22:24:24.574993
+
+Status: PASSED!
+Check: 3
+Test: Successful Output
+Reason: None
+Timestamp: 2024-11-23 22:24:24.578799
+
+Status: PASSED!
+Check: 4
+Test: Successful Output II
+Reason: None
+Timestamp: 2024-11-23 22:24:24.581926

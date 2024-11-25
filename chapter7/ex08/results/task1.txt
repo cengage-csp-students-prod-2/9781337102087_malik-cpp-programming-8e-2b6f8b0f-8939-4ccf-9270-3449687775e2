@@ -1,0 +1,28 @@
+
+Status: FAILED!
+Check: 1
+Test: Successful Output
+Reason: Unable to find '['John Doe xxxxxxxxx DoeJ xxxxxxxxxxx']' in the program's output.
+Enter the student's name: Enter the Social Security number (in the format 000-00-0000): Enter the user ID: Enter the password: 
+Processed Information:
+Name: John Doe 333224444 DoeJ 123Password
+Social Security Number: 
+User ID: 
+Password: 
+.
+Error : AssertionError - Unable to find John Doe xxxxxxxxx DoeJ xxxxxxxxxxx in the program's output.
+Timestamp: 2024-11-25 04:28:16.122218
+
+Status: FAILED!
+Check: 2
+Test: Successful Output II
+Reason: Unable to find '['Jane Smith xxxxxxxxx SmithJ xxxxxxxxxxxx']' in the program's output.
+Enter the student's name: Enter the Social Security number (in the format 000-00-0000): Enter the user ID: Enter the password: 
+Processed Information:
+Name: Jane Smith 296487534 SmithJ 123456789Hey
+Social Security Number: 
+User ID: 
+Password: 
+.
+Error : AssertionError - Unable to find Jane Smith xxxxxxxxx SmithJ xxxxxxxxxxxx in the program's output.
+Timestamp: 2024-11-25 04:28:16.124406

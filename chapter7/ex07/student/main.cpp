@@ -10,7 +10,7 @@ void divideFractions(int, int, int, int, int&, int&);
 
 int main() {
     int choice;
-    do {
+    while (true) {
         menu();
         cout << "Enter your choice (1-4, or 0 to exit): ";
         cin >> choice;
@@ -20,53 +20,68 @@ int main() {
             break;
         }
 
+        // Ensure a valid choice
+        if (choice < 1 || choice > 4) {
+            cout << "Invalid choice. Please try again.\n";
+            continue;
+        }
+
         int num1, den1, num2, den2, resultNum, resultDen;
 
-        // Input fractions
-        cout << "Enter the numerator and denominator of the first fraction: ";
+        // Input first fraction
+        cout << "Enter the numerator and denominator of the first fraction (separated by a space): ";
         cin >> num1 >> den1;
-        cout << "Enter the numerator and denominator of the second fraction: ";
-        cin >> num2 >> den2;
 
-        if (den1 == 0 || den2 == 0) {
+        // Check denominator for validity
+        if (den1 == 0) {
             cout << "Denominator cannot be zero. Please try again.\n";
             continue;
         }
 
-        // Perform operation based on user choice
+        // Input second fraction
+        cout << "Enter the numerator and denominator of the second fraction (separated by a space): ";
+        cin >> num2 >> den2;
+
+        // Check denominator for validity
+        if (den2 == 0) {
+            cout << "Denominator cannot be zero. Please try again.\n";
+            continue;
+        }
+
+        // Perform the operation based on the choice
         switch (choice) {
-        case 1:
+        case 1: // Addition
             addFractions(num1, den1, num2, den2, resultNum, resultDen);
             cout << num1 << "/" << den1 << " + " << num2 << "/" << den2 
                  << " = " << resultNum << "/" << resultDen << endl;
             break;
-        case 2:
+        case 2: // Subtraction
             subtractFractions(num1, den1, num2, den2, resultNum, resultDen);
             cout << num1 << "/" << den1 << " - " << num2 << "/" << den2 
                  << " = " << resultNum << "/" << resultDen << endl;
             break;
-        case 3:
+        case 3: // Multiplication
             multiplyFractions(num1, den1, num2, den2, resultNum, resultDen);
             cout << num1 << "/" << den1 << " * " << num2 << "/" << den2 
                  << " = " << resultNum << "/" << resultDen << endl;
             break;
-        case 4:
-            divideFractions(num1, den1, num2, den2, resultNum, resultDen);
-            cout << num1 << "/" << den1 << " / " << num2 << "/" << den2 
-                 << " = " << resultNum << "/" << resultDen << endl;
+        case 4: // Division
+            if (num2 == 0) {
+                cout << "Cannot divide by a fraction with a numerator of zero. Please try again.\n";
+            } else {
+                divideFractions(num1, den1, num2, den2, resultNum, resultDen);
+                cout << num1 << "/" << den1 << " / " << num2 << "/" << den2 
+                     << " = " << resultNum << "/" << resultDen << endl;
+            }
             break;
-        default:
-            cout << "Invalid choice. Please try again.\n";
         }
-
         cout << endl;
-    } while (true);
-
+    }
     return 0;
 }
 
 void menu() {
-    cout << "Welcome to the Fraction Calculator!" << endl;
+    cout << "\nWelcome to the Fraction Calculator!" << endl;
     cout << "1. Addition (+)" << endl;
     cout << "2. Subtraction (-)" << endl;
     cout << "3. Multiplication (*)" << endl;

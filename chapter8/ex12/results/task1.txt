@@ -3,11 +3,11 @@ Status: FAILED!
 Check: 1
 Test: Successful Output
 Reason: Unable to find '['Name         Day 1   Day 2   Day 3   Day 4   Day 5', 'Jason        10.00   15.00   20.00   25.00   18.00   20.0', 'Ravi         20.00   26.00   18.00   29.00   10.00   12.0']' in the program's output.
-Runners Name 1 : JasonRunning data: 10Running data: 15Running data: 20Running data: 25Running data: 18Running data: 20Running data: 26
-Runners Name 2 : SamanthaRunning data: 15Running data: 18Running data: 29Running data: 16Running data: 26Running data: 20Running data: 23
-Runners Name 3 : RaviRunning data: 20Running data: 26Running data: 18Running data: 29Running data: 10Running data: 12Running data: 20
-Runners Name 4 : SheilaRunning data: 17Running data: 20Running data: 15Running data: 26Running data: 18Running data: 25Running data: 12
-Runners Name 5 : AnkitRunning data: 16Running data: 8Running data: 28Running data: 20Running data: 11Running data: 25Running data: 21
+Name  : JasonDay 110Day 215Day 320Day 425Day 518Day 620Day 726
+Name  : SamanthaDay 115Day 218Day 329Day 416Day 526Day 620Day 723
+Name  : RaviDay 120Day 226Day 318Day 429Day 510Day 612Day 720
+Name  : SheilaDay 117Day 220Day 315Day 426Day 518Day 625Day 712
+Name  : AnkitDay 116Day 28Day 328Day 420Day 511Day 625Day 721
 Daily Average data: 15.6
 Daily Average data: 17.4
 Daily Average data: 22
@@ -17,4 +17,4 @@ Daily Average data: 20.4
 Daily Average data: 20.4
 .
 Error : AssertionError - Unable to find Name\s*Day 1\s*Day 2\s*Day 3\s*Day 4\s*Day 5 in the program's output.
-Timestamp: 2024-11-29 09:59:55.300361
+Timestamp: 2024-11-29 10:02:48.450475

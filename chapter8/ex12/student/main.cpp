@@ -39,19 +39,21 @@ void calculateAverage(double runData[][NUM_DAYS] , double dailyAverage[]){
 void print(string n[], double runData[][NUM_DAYS] , double dailyAverage[]){
     cout << fixed << setprecision(2);
     for (int i = 0; i < RUNNERS; i++) {
-        cout << "Runner Name " << i + 1 << " (" << n[i] << "): ";
+        cout <<  n[i] ;
         for (int j = 0; j < NUM_DAYS; j++) {
-            cout << runData[i][j] << " ";
+            cout <<" "<< runData[i][j] << " ";
         }
         cout << endl;
     }
 
     // Print daily averages
-    cout << "\nDaily Average Miles:" << endl;
-    for (int day = 0; day < NUM_DAYS; day++) {
-        cout << "Day " << day + 1 << ": " << dailyAverage[day] << " miles" << endl;
-    } 
-
+    // cout << "\nDaily Average Miles:" << endl;
+    for (int i = 0; i < RUNNERS; i++) {
+        cout <<  n[i] ;
+        for (int day = 0; day < NUM_DAYS; day++) {
+            cout << dailyAverage[day] ;
+        } 
+    }
 }
 
 

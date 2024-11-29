@@ -1,14 +1,20 @@
 
 Status: FAILED!
-Reason: Unable to run main.cpp
-Error: The program took longer than 5 seconds to execute.
-This may indicate an issue providing input to your program.
-Check your program follows the example in the instructions.
-Timestamp: 2024-11-29 09:54:20.843882
-
-Status: FAILED!
-Reason: Unable to run main.cpp
-Error: The program took longer than 5 seconds to execute.
-This may indicate an issue providing input to your program.
-Check your program follows the example in the instructions.
-Timestamp: 2024-11-29 09:54:20.843993
+Check: 1
+Test: Successful Output
+Reason: Unable to find '['Name         Day 1   Day 2   Day 3   Day 4   Day 5', 'Jason        10.00   15.00   20.00   25.00   18.00   20.0', 'Ravi         20.00   26.00   18.00   29.00   10.00   12.0']' in the program's output.
+Runners Name 1 : JasonRunning data: 10Running data: 15Running data: 20Running data: 25Running data: 18Running data: 20Running data: 26
+Runners Name 2 : SamanthaRunning data: 15Running data: 18Running data: 29Running data: 16Running data: 26Running data: 20Running data: 23
+Runners Name 3 : RaviRunning data: 20Running data: 26Running data: 18Running data: 29Running data: 10Running data: 12Running data: 20
+Runners Name 4 : SheilaRunning data: 17Running data: 20Running data: 15Running data: 26Running data: 18Running data: 25Running data: 12
+Runners Name 5 : AnkitRunning data: 16Running data: 8Running data: 28Running data: 20Running data: 11Running data: 25Running data: 21
+Daily Average data: 15.6
+Daily Average data: 17.4
+Daily Average data: 22
+Daily Average data: 23.2
+Daily Average data: 16.6
+Daily Average data: 20.4
+Daily Average data: 20.4
+.
+Error : AssertionError - Unable to find Name\s*Day 1\s*Day 2\s*Day 3\s*Day 4\s*Day 5 in the program's output.
+Timestamp: 2024-11-29 09:57:38.164736

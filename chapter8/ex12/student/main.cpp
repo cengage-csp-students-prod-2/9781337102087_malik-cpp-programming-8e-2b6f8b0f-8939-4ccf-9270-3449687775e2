@@ -42,7 +42,7 @@ void print(const string n[], double runData[][NUM_DAYS], double dailyAverage[]) 
     // Print header
     cout << left << setw(12) << "Name";
     for (int day = 1; day <= NUM_DAYS; day++) {
-        cout << "Day " << day << setw(8);
+        cout << setw(8) << ("Day " + to_string(day));
     }
     cout << endl;
 

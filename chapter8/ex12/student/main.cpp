@@ -24,10 +24,10 @@ for ( int i =0 ; i< RUNNERS ; i++){
 
 
 }
-void calculateAverage(double runData[][NUM_DAYS], double RUNNERS , double dailyAverage[]){
+void calculateAverage(double runData[][NUM_DAYS] , double dailyAverage[]){
     for (int days = 0; days< NUM_DAYS; days++){
         double sum = 0.0;
-        for (int j = 0 ; j<RUNNERS;j++){
+        for (int j = 0 ; j < RUNNERS;j++){
             sum += runData[j][days];
         }
         dailyAverage[days] = sum/RUNNERS;
@@ -36,7 +36,7 @@ void calculateAverage(double runData[][NUM_DAYS], double RUNNERS , double dailyA
 
 
 
-void print(string n[], double runData[][NUM_DAYS],  double RUNNERS , double dailyAverage[]){
+void print(string n[], double runData[][NUM_DAYS] , double dailyAverage[]){
     for (int i =0; i< RUNNERS;i++){
         cout<<"Runners Name "<< i+1 <<" : "<< n[i];
         for (int j =0 ; j< NUM_DAYS ; j++){
@@ -74,9 +74,9 @@ int main()
   
     getData(inFile, names, runningData, RUNNERS);
 
-    calculateAverage(runningData , RUNNERS, dailyAverage);
+    calculateAverage(runningData ,  dailyAverage);
 
-    print(names, runningData, RUNNERS, dailyAverage);
+    print(names, runningData,  dailyAverage);
     
     
     inFile.close();

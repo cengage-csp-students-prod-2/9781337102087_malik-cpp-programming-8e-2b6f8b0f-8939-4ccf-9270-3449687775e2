@@ -36,24 +36,32 @@ void calculateAverage(double runData[][NUM_DAYS] , double dailyAverage[]){
 
 
 
-void print(string n[], double runData[][NUM_DAYS] , double dailyAverage[]){
+void print(const string n[], double runData[][NUM_DAYS], double dailyAverage[]) {
     cout << fixed << setprecision(2);
+
+    // Print header
+    cout << left << setw(12) << "Name";
+    for (int day = 1; day <= NUM_DAYS; day++) {
+        cout << "Day " << day << setw(8);
+    }
+    cout << endl;
+
+    // Print runner data
     for (int i = 0; i < RUNNERS; i++) {
-        cout <<  n[i] ;
+        cout << left << setw(12) << n[i];  // Runner's name
         for (int j = 0; j < NUM_DAYS; j++) {
-            cout <<" "<< runData[i][j] << " ";
+            cout << setw(8) << runData[i][j];  // Miles for each day
         }
         cout << endl;
     }
 
     // Print daily averages
-    // cout << "\nDaily Average Miles:" << endl;
-    for (int i = 0; i < RUNNERS; i++) {
-        cout <<  n[i] ;
-        for (int day = 0; day < NUM_DAYS; day++) {
-            cout << dailyAverage[day] ;
-        } 
+    cout << "\nDaily Averages:" << endl;
+    cout << left << setw(12) << " ";
+    for (int day = 0; day < NUM_DAYS; day++) {
+        cout << setw(8) << dailyAverage[day];
     }
+    cout << endl;
 }
 
 

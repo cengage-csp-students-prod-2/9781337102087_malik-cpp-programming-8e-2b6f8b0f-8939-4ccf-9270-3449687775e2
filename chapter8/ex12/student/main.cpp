@@ -38,9 +38,9 @@ void calculateAverage(double runData[][NUM_DAYS] , double dailyAverage[]){
 
 void print(string n[], double runData[][NUM_DAYS] , double dailyAverage[]){
     for (int i =0; i< RUNNERS;i++){
-        cout<<"Runners Name "<< i+1 <<" : "<< n[i];
+        cout<<"Name " <<" : "<< n[i];
         for (int j =0 ; j< NUM_DAYS ; j++){
-            cout<<"Running data: "<< runData[i][j];
+            cout<<"Day "<< j+1 << runData[i][j];
         }
         cout<<endl;
     }

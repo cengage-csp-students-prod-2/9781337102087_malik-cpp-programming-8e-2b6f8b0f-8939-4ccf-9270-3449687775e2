@@ -11,9 +11,9 @@ const int RUNNERS = 5;
 
 void getData(fstream& inf, string n[], double runData[][NUM_DAYS], int count){
 
-for ( int i =0 ; i< NUM_DAYS ; i++){
+for ( int i =0 ; i< RUNNERS ; i++){
     inf >> n[i];
-    for (int j =0 ; j< NUM_DAYS; i++){
+    for (int j =0 ; j< NUM_DAYS; j++){
         inf >> runData[i][j];
     }
 }

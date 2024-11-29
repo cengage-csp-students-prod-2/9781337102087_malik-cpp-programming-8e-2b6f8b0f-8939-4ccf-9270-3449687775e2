@@ -3,20 +3,11 @@ Status: FAILED!
 Check: 1
 Test: Successful Output
 Reason: Unable to find '['Name         Day 1   Day 2   Day 3   Day 4   Day 5', 'Jason        10.00   15.00   20.00   25.00   18.00   20.0', 'Ravi         20.00   26.00   18.00   29.00   10.00   12.0']' in the program's output.
-Runner Name 1 (Jason): 10.00 15.00 20.00 25.00 18.00 20.00 26.00 
-Runner Name 2 (Samantha): 15.00 18.00 29.00 16.00 26.00 20.00 23.00 
-Runner Name 3 (Ravi): 20.00 26.00 18.00 29.00 10.00 12.00 20.00 
-Runner Name 4 (Sheila): 17.00 20.00 15.00 26.00 18.00 25.00 12.00 
-Runner Name 5 (Ankit): 16.00 8.00 28.00 20.00 11.00 25.00 21.00 
-
-Daily Average Miles:
-Day 1: 15.60 miles
-Day 2: 17.40 miles
-Day 3: 22.00 miles
-Day 4: 23.20 miles
-Day 5: 16.60 miles
-Day 6: 20.40 miles
-Day 7: 20.40 miles
-.
+Jason 10.00  15.00  20.00  25.00  18.00  20.00  26.00 
+Samantha 15.00  18.00  29.00  16.00  26.00  20.00  23.00 
+Ravi 20.00  26.00  18.00  29.00  10.00  12.00  20.00 
+Sheila 17.00  20.00  15.00  26.00  18.00  25.00  12.00 
+Ankit 16.00  8.00  28.00  20.00  11.00  25.00  21.00 
+Jason15.6017.4022.0023.2016.6020.4020.40Samantha15.6017.4022.0023.2016.6020.4020.40Ravi15.6017.4022.0023.2016.6020.4020.40Sheila15.6017.4022.0023.2016.6020.4020.40Ankit15.6017.4022.0023.2016.6020.4020.40.
 Error : AssertionError - Unable to find Name\s*Day 1\s*Day 2\s*Day 3\s*Day 4\s*Day 5 in the program's output.
-Timestamp: 2024-11-29 10:05:36.440276
+Timestamp: 2024-11-29 10:09:11.516193

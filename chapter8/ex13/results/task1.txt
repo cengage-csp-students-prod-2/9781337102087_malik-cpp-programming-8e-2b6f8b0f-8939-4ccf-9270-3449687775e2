@@ -19,7 +19,7 @@ Class Average:
             81.80   73.90   69.40   62.20   55.70   
 
  Grade:
-            B       B       D       C       E       E       D       A       C       D       
+            B       B       D       C       F       F       D       A       C       D       
 .
 Error : AssertionError - Unable to find Class average: 70.94 in the program's output.
-Timestamp: 2024-11-30 08:08:23.491004
+Timestamp: 2024-11-30 08:13:54.772748

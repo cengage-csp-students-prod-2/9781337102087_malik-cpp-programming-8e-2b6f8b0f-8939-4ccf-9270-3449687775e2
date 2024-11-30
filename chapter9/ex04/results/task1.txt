@@ -1,48 +1,28 @@
 
 Status: FAILED!
-Check: 1
-Test: Plain egg + Bacon and egg
-Reason: Unable to find '['Tax', '$0.20', 'Amount Due', '$4.10']' in the program's output.
-Welcome to Johnny's Restaurant
-----Today's Menu----
-1: Plain Egg      $1.45
-2: Bacon and Egg  $2.45
-3: Muffin         $0.99
-4: French Toast   $1.99
-5: Fruit Basket   $2.49
-6: Cereal         $0.69
-7: Coffee         $0.50
-8: Tea            $0.75
-
-Enter item number: Invalid item number. Please try again.
-
-Welcome to Johnny's Restaurant
-Tax            $0.00
-Amount Due     $0.00
-.
-Error : AssertionError - Unable to find $0.20 in the program's output.
-Timestamp: 2024-11-30 09:12:29.125601
+Reason: Unable to run main.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2024-11-30 09:14:28.492201
 
 Status: FAILED!
-Check: 2
-Test: Sweet breakfast
-Reason: Unable to find '['Tax', '$0.26', 'Amount Due', '$5.49']' in the program's output.
-Welcome to Johnny's Restaurant
-----Today's Menu----
-1: Plain Egg      $1.45
-2: Bacon and Egg  $2.45
-3: Muffin         $0.99
-4: French Toast   $1.99
-5: Fruit Basket   $2.49
-6: Cereal         $0.69
-7: Coffee         $0.50
-8: Tea            $0.75
+Reason: Unable to run main.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2024-11-30 09:14:28.492326
 
-Enter item number: Invalid item number. Please try again.
+Status: FAILED!
+Reason: Unable to run main.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2024-11-30 09:14:33.598080
 
-Welcome to Johnny's Restaurant
-Tax            $0.00
-Amount Due     $0.00
-.
-Error : AssertionError - Unable to find $0.26 in the program's output.
-Timestamp: 2024-11-30 09:12:29.127880
+Status: FAILED!
+Reason: Unable to run main.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2024-11-30 09:14:33.598190

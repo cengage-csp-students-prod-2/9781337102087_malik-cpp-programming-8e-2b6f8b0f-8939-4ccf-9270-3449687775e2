@@ -55,7 +55,7 @@ for (int nam = 0; nam < NumStds; nam++){
        grade[nam] = "D";
     }
     else{
-        grade[nam] = "E";
+        grade[nam] = "F";
     }
     
 

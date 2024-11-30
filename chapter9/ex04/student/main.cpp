@@ -54,8 +54,11 @@ void printCheck(const vector<MenuItem>& menuList, const vector<int>& order) {
     }
 
     double tax = total * 0.05;
+    double amountDue = total + tax;
+
+    // Properly formatted output for tax and total amount due
     cout << left << setw(15) << "Tax" << "$" << fixed << setprecision(2) << tax << endl;
-    cout << left << setw(15) << "Amount Due" << "$" << fixed << setprecision(2) << (total + tax) << endl;
+    cout << left << setw(15) << "Amount Due" << "$" << fixed << setprecision(2) << amountDue << endl;
 }
 
 int main() {
@@ -71,6 +74,7 @@ int main() {
         int itemNumber;
         cin >> itemNumber;
 
+        // Validate the input to ensure it is a valid menu item
         if (itemNumber < 1 || itemNumber > static_cast<int>(menuList.size())) {
             cout << "Invalid item number. Please try again." << endl;
             continue;

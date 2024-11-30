@@ -1,0 +1,48 @@
+
+Status: FAILED!
+Check: 1
+Test: Plain egg + Bacon and egg
+Reason: Unable to find '['Tax', '$0.20', 'Amount Due', '$4.10']' in the program's output.
+Welcome to Johnny's Restaurant
+----Today's Menu----
+1: Plain Egg      $1.45
+2: Bacon and Egg  $2.45
+3: Muffin         $0.99
+4: French Toast   $1.99
+5: Fruit Basket   $2.49
+6: Cereal         $0.69
+7: Coffee         $0.50
+8: Tea            $0.75
+
+Enter item number: Invalid item number. Please try again.
+
+Welcome to Johnny's Restaurant
+Tax            $0.00
+Amount Due     $0.00
+.
+Error : AssertionError - Unable to find $0.20 in the program's output.
+Timestamp: 2024-11-30 09:04:48.741354
+
+Status: FAILED!
+Check: 2
+Test: Sweet breakfast
+Reason: Unable to find '['Tax', '$0.26', 'Amount Due', '$5.49']' in the program's output.
+Welcome to Johnny's Restaurant
+----Today's Menu----
+1: Plain Egg      $1.45
+2: Bacon and Egg  $2.45
+3: Muffin         $0.99
+4: French Toast   $1.99
+5: Fruit Basket   $2.49
+6: Cereal         $0.69
+7: Coffee         $0.50
+8: Tea            $0.75
+
+Enter item number: Invalid item number. Please try again.
+
+Welcome to Johnny's Restaurant
+Tax            $0.00
+Amount Due     $0.00
+.
+Error : AssertionError - Unable to find $0.26 in the program's output.
+Timestamp: 2024-11-30 09:04:48.743701

@@ -21,15 +21,16 @@ for (int i = 0 ; i< NumStds; i++){
 
 }
 
-void calculateAverageGrade(double testaverage[], string grade[], double mark[][NumSub]){
-
+void calculateAverageGrade(double testaverage[], string grade[], double mark[][NumSub], double classaverage){
+double sum = 0.0;
 for (int subj =0 ; subj < NumSub; subj++){
-    double sum = 0.0;
+    
     for ( int nam = 0; nam < NumStds; nam++ ){
         sum += mark[subj][nam];
     }
-    testaverage[subj] = sum/10;
+    
 }
+testaverage[0] = sum/50;
 
 for (int nam = 0; nam < NumStds; nam++){
     double sum = 0.0;
@@ -69,6 +70,15 @@ void output(string n[], double mark[][NumSub], double testaverage[], string grad
 
 cout<<fixed<<showpoint<<setprecision(2);
 
+  // Print test averages
+   cout << "\nClass Average:" << endl;
+   cout << left << setw(12) << " ";
+//    for (int day = 0; day < NumSub; day++) {
+//        cout << setw(8) << testaverage[day];
+//    }
+    cout << setw(8) << testaverage[0];
+   cout << endl;
+
 // Print header
    cout << left << setw(12) << "Name";
    for (int day = 1; day <= NumSub; day++) {
@@ -87,13 +97,7 @@ cout<<fixed<<showpoint<<setprecision(2);
    }
 
 
-   // Print test averages
-   cout << "\nClass Average:" << endl;
-   cout << left << setw(12) << " ";
-   for (int day = 0; day < NumSub; day++) {
-       cout << setw(8) << testaverage[day];
-   }
-   cout << endl;
+ 
 
 
 // Print grade 
@@ -112,14 +116,15 @@ int main() {
     string names[NumStds];
     double marks[NumStds][NumSub];
     string grade[NumStds];
-    double testaverage[NumSub];
+    double testaverage[0];
+    double classaverage;
 
     fstream inFile;
     inFile.open("ch8_Ex13Data.txt");
     getData(inFile, names, marks );
 
 
-    calculateAverageGrade( testaverage, grade, marks);
+    calculateAverageGrade( testaverage, grade, marks,classaverage);
 
     output(names, marks, testaverage, grade);
 

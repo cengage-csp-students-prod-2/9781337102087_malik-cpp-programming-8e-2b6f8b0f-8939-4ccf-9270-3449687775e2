@@ -1,0 +1,24 @@
+
+Status: PASSED!
+Check: 1
+Test: Run program (This will pass by default)
+Reason: None
+Timestamp: 2024-11-30 08:51:44.712938
+
+Status: PASSED!
+Check: 2
+Test: Alice test
+Reason: Wonderful, Alice\s+89\s+B + ` was found in the program.None
+Timestamp: 2024-11-30 08:51:44.713304
+
+Status: PASSED!
+Check: 3
+Test: Greg test
+Reason: Gupta, Greg\s+75\s+C + ` was found in the program.None
+Timestamp: 2024-11-30 08:51:44.713517
+
+Status: PASSED!
+Check: 4
+Test: Amy test
+Reason: Cheng, Amy\s+83\s+B + ` was found in the program.None
+Timestamp: 2024-11-30 08:51:44.713714

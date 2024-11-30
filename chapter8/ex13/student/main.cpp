@@ -71,12 +71,12 @@ void output(string n[], double mark[][NumSub], double testaverage[], string grad
 cout<<fixed<<showpoint<<setprecision(2);
 
   // Print test averages
-   cout << "\nClass Average:" << endl;
-   cout << left << setw(12) << " ";
+   cout << "\nClass Average: ";
+//    cout << left << setw(12) << " ";
 //    for (int day = 0; day < NumSub; day++) {
 //        cout << setw(8) << testaverage[day];
 //    }
-    cout << setw(8) << testaverage[0];
+    cout<< testaverage[0];
    cout << endl;
 
 // Print header

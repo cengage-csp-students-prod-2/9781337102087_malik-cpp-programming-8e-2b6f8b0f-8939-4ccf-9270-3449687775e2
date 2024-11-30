@@ -28,7 +28,7 @@ for (int subj =0 ; subj < NumSub; subj++){
     for ( int nam = 0; nam < NumStds; nam++ ){
         sum += mark[subj][nam];
     }
-    testaverage[subj] = sum;
+    testaverage[subj] = sum/10;
 }
 
 for (int nam = 0; nam < NumStds; nam++){
@@ -88,7 +88,7 @@ cout<<fixed<<showpoint<<setprecision(2);
 
 
    // Print test averages
-   cout << "\nDaily Averages:" << endl;
+   cout << "\nClass Average:" << endl;
    cout << left << setw(12) << " ";
    for (int day = 0; day < NumSub; day++) {
        cout << setw(8) << testaverage[day];

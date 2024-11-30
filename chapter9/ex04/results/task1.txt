@@ -21,7 +21,7 @@ Tax            $0.00
 Amount Due     $0.00
 .
 Error : AssertionError - Unable to find $0.20 in the program's output.
-Timestamp: 2024-11-30 09:06:35.802962
+Timestamp: 2024-11-30 09:10:09.794903
 
 Status: FAILED!
 Check: 2
@@ -45,4 +45,4 @@ Tax            $0.00
 Amount Due     $0.00
 .
 Error : AssertionError - Unable to find $0.26 in the program's output.
-Timestamp: 2024-11-30 09:06:35.805248
+Timestamp: 2024-11-30 09:10:09.797189

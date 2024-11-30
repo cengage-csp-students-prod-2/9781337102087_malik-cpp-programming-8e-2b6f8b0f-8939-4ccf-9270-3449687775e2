@@ -4,8 +4,7 @@ Check: 1
 Test: Program Outputs Correctly
 Reason: Unable to find '['Class average: 70.94', 'Johnson      85.00   83.00   77.00   91.00', 'Clark        60.00   85.00   45.00   39.00', 'Sunny        79.00   85.00   28.00   93.00']' in the program's output.
 
-Class Average:
-            68.60   
+Class Average: 68.60
 Name        Mark 1  Mark 2  Mark 3  Mark 4  Mark 5  
 Johnson     85.00   83.00   77.00   91.00   76.00   
 Aniston     80.00   90.00   95.00   93.00   48.00   
@@ -22,4 +21,4 @@ Smith       85.00   72.00   49.00   75.00   63.00
             B       B       D       C       F       F       D       A       C       D       
 .
 Error : AssertionError - Unable to find Class average: 70.94 in the program's output.
-Timestamp: 2024-11-30 08:19:28.733220
+Timestamp: 2024-11-30 08:20:53.219104

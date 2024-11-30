@@ -42,12 +42,12 @@ void calculateAverageGrade(double studentAvg[], string grade[], double mark[][Nu
 void output(string n[], double mark[][NumSub], double studentAvg[], string grade[], double classAverage) {
     cout << fixed << showpoint << setprecision(2);
 
-    // Output header
-    cout << "Name        ";
-    for (int i = 1; i <= NumSub; i++) {
-        cout << "Mark " << i << "   ";
-    }
-    cout << "Average Grade" << endl;
+    // // Output header
+    // cout << "Name        ";
+    // for (int i = 1; i <= NumSub; i++) {
+    //     cout << "Mark " << i << "   ";
+    // }
+    // cout << "Average Grade" << endl;
 
     // Output individual scores
     for (int i = 0; i < NumStds; i++) {

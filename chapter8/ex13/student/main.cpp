@@ -41,8 +41,8 @@ void calculateAverageGrade(double studentAvg[], string grade[], double mark[][Nu
 
 void output(string n[], double mark[][NumSub], double studentAvg[], string grade[], double classAverage) {
     cout << fixed << showpoint << setprecision(2);
-
-  ÷
+cout << "\nClass average: " << classAverage << endl;
+  
     // cout << "Average Grade" << endl;
 
     // Print individual student data
@@ -55,7 +55,7 @@ void output(string n[], double mark[][NumSub], double studentAvg[], string grade
     }
 
     // Print class average (final formatting fix here)
-    cout << "\nClass average: " << classAverage << endl;
+    
 }
 
 int main() {

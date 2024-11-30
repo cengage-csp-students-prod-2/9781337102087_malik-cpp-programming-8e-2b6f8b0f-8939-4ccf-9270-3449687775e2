@@ -55,7 +55,7 @@ void output(string n[], double mark[][NumSub], double studentAvg[], string grade
         for (int j = 0; j < NumSub; j++) {
             cout << setw(8) << mark[i][j];
         }
-        cout << setw(8) << studentAvg[i] << grade[i] << endl;
+        cout << setw(8)<< grade[i] << endl;
     }
 
     // Print class average (final formatting fix here)

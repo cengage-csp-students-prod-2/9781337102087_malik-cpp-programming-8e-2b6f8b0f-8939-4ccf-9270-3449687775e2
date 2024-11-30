@@ -17,73 +17,67 @@ void getData(fstream& inf, string n[], double mark[][NumSub]) {
     }
 }
 
-void calculateAverageGrade(double testaverage[], string grade[], double mark[][NumSub], double& classaverage) {
+void calculateAverageGrade(double studentAvg[], string grade[], double mark[][NumSub], double& classAverage) {
     double totalSum = 0.0;
 
-    for (int nam = 0; nam < NumStds; nam++) {
+    for (int i = 0; i < NumStds; i++) {
         double sum = 0.0;
-        for (int subj = 0; subj < NumSub; subj++) {
-            sum += mark[nam][subj];
+        for (int j = 0; j < NumSub; j++) {
+            sum += mark[i][j];
         }
-        testaverage[nam] = sum / NumSub; // Average for each student
-        totalSum += testaverage[nam];    // Sum for class average
+        studentAvg[i] = sum / NumSub;
+        totalSum += studentAvg[i];
 
-        // Determine letter grade
-        if (testaverage[nam] >= 90) {
-            grade[nam] = "A";
-        } else if (testaverage[nam] >= 80) {
-            grade[nam] = "B";
-        } else if (testaverage[nam] >= 70) {
-            grade[nam] = "C";
-        } else if (testaverage[nam] >= 60) {
-            grade[nam] = "D";
-        } else {
-            grade[nam] = "F";
-        }
+        // Assign grade
+        if (studentAvg[i] >= 90) grade[i] = "A";
+        else if (studentAvg[i] >= 80) grade[i] = "B";
+        else if (studentAvg[i] >= 70) grade[i] = "C";
+        else if (studentAvg[i] >= 60) grade[i] = "D";
+        else grade[i] = "F";
     }
 
-    classaverage = totalSum / NumStds; // Class average
+    classAverage = totalSum / NumStds;
 }
 
-void output(string n[], double mark[][NumSub], double testaverage[], string grade[], double classaverage) {
+void output(string n[], double mark[][NumSub], double studentAvg[], string grade[], double classAverage) {
     cout << fixed << showpoint << setprecision(2);
 
-    cout << "\nClass Average: " << classaverage << endl;
-
-    // Print header
-    cout << left << setw(12) << "Name";
-    for (int day = 1; day <= NumSub; day++) {
-        cout << setw(8) << ("Mark " + to_string(day));
+    // Output header
+    cout << "Name        ";
+    for (int i = 1; i <= NumSub; i++) {
+        cout << "Mark " << i << "   ";
     }
-    cout << setw(10) << "Average" << "Grade" << endl;
+    cout << "Average Grade" << endl;
 
-    // Print student data
+    // Output individual scores
     for (int i = 0; i < NumStds; i++) {
-        cout << left << setw(12) << n[i]; // Student name
+        cout << left << setw(12) << n[i];
         for (int j = 0; j < NumSub; j++) {
-            cout << setw(8) << mark[i][j]; // Marks
+            cout << setw(8) << mark[i][j];
         }
-        cout << setw(10) << testaverage[i] << grade[i] << endl;
+        cout << setw(8) << studentAvg[i] << grade[i] << endl;
     }
+
+    // Output class average
+    cout << "\nClass average: " << classAverage << endl;
 }
 
 int main() {
     string names[NumStds];
     double marks[NumStds][NumSub];
     string grade[NumStds];
-    double testaverage[NumStds];
-    double classaverage;
+    double studentAvg[NumStds];
+    double classAverage;
 
-    fstream inFile;
-    inFile.open("ch8_Ex13Data.txt");
+    fstream inFile("ch8_Ex13Data.txt");
     if (!inFile) {
-        cerr << "Error opening file." << endl;
+        cerr << "Error: Could not open file." << endl;
         return 1;
     }
 
     getData(inFile, names, marks);
-    calculateAverageGrade(testaverage, grade, marks, classaverage);
-    output(names, marks, testaverage, grade, classaverage);
+    calculateAverageGrade(studentAvg, grade, marks, classAverage);
+    output(names, marks, studentAvg, grade, classAverage);
 
     inFile.close();
     return 0;

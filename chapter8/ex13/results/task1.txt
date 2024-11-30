@@ -3,7 +3,6 @@ Status: FAILED!
 Check: 1
 Test: Program Outputs Correctly
 Reason: Unable to find '['Class average: 70.94', 'Johnson      85.00   83.00   77.00   91.00', 'Clark        60.00   85.00   45.00   39.00', 'Sunny        79.00   85.00   28.00   93.00']' in the program's output.
-Name        Mark 1   Mark 2   Mark 3   Mark 4   Mark 5   Average Grade
 Johnson     85.00   83.00   77.00   91.00   76.00   82.40   B
 Aniston     80.00   90.00   95.00   93.00   48.00   81.20   B
 Cooper      78.00   81.00   11.00   90.00   73.00   66.60   D
@@ -18,4 +17,4 @@ Smith       85.00   72.00   49.00   75.00   63.00   68.80   D
 Class average: 70.94
 .
 Error : AssertionError - Unable to find Johnson      85.00   83.00   77.00   91.00 in the program's output.
-Timestamp: 2024-11-30 08:25:49.477740
+Timestamp: 2024-11-30 08:26:56.854163

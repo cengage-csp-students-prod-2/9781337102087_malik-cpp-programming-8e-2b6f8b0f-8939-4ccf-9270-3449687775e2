@@ -47,7 +47,7 @@ cout << "Class average: " << classAverage << endl;
 
     // Print individual student data
     for (int i = 0; i < NumStds; i++) {
-        cout << left << setw(12) << n[i];
+        cout << left << setw(13) << n[i];
         for (int j = 0; j < NumSub; j++) {
             cout << setw(8) << mark[i][j];
         }

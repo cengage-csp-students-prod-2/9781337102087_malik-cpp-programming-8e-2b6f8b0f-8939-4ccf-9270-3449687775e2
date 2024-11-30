@@ -18,4 +18,4 @@ Sunny       79.00   85.00   28.00   93.00   82.00   73.40     C
 Smith       85.00   72.00   49.00   75.00   63.00   68.80     D
 .
 Error : AssertionError - Unable to find Class average: 70.94 in the program's output.
-Timestamp: 2024-11-30 08:23:01.618935
+Timestamp: 2024-11-30 08:24:11.733480

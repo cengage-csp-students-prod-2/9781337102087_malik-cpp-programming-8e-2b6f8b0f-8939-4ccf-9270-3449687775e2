@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.log": true,
+        "**/.*": true,
+        "**/*.csproj": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "files.associations": {
+        "iosfwd": "cpp"
+    }
+}

@@ -69,23 +69,29 @@ int main() {
 
     vector<int> order;
     char choice;
-    do {
-        cout << "Enter item number: ";
-        int itemNumber;
+    int itemNumber;
+
+    // Loop until valid items are chosen
+    while (true) {
+        cout << "Enter item number (1-8): ";
         cin >> itemNumber;
 
-        // Validate the input to ensure it is a valid menu item
-        if (itemNumber < 1 || itemNumber > static_cast<int>(menuList.size())) {
+        // Validate the input to ensure it is a valid menu item number
+        if (itemNumber >= 1 && itemNumber <= 8) {
+            order.push_back(itemNumber - 1);  // Store index of item
+        } else {
             cout << "Invalid item number. Please try again." << endl;
             continue;
         }
 
-        order.push_back(itemNumber - 1);  // Store index of item
-
         cout << "Select another item Y/y (Yes), N/n (No): ";
         cin >> choice;
 
-    } while (choice == 'Y' || choice == 'y');
+        // Exit loop if user does not want to select more items
+        if (choice == 'N' || choice == 'n') {
+            break;
+        }
+    }
 
     cout << endl;
     printCheck(menuList, order);

@@ -2,7 +2,14 @@
 using namespace std;
 
 // Function prototypes
-void menu();
+void menu(){
+    cout << "\nWelcome to the Fraction Calculator!" << endl;
+    cout << "1. Addition (+)" << endl;
+    cout << "2. Subtraction (-)" << endl;
+    cout << "3. Multiplication (*)" << endl;
+    cout << "4. Division (/)" << endl;
+    cout << "0. Exit" << endl;
+}
 void addFractions(int, int, int, int, int&, int&);
 void subtractFractions(int, int, int, int, int&, int&);
 void multiplyFractions(int, int, int, int, int&, int&);
@@ -80,14 +87,7 @@ int main() {
     return 0;
 }
 
-void menu() {
-    cout << "\nWelcome to the Fraction Calculator!" << endl;
-    cout << "1. Addition (+)" << endl;
-    cout << "2. Subtraction (-)" << endl;
-    cout << "3. Multiplication (*)" << endl;
-    cout << "4. Division (/)" << endl;
-    cout << "0. Exit" << endl;
-}
+
 
 // Function to add fractions
 void addFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {

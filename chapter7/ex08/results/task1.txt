@@ -11,7 +11,7 @@ User ID:
 Password: 
 .
 Error : AssertionError - Unable to find John Doe xxxxxxxxx DoeJ xxxxxxxxxxx in the program's output.
-Timestamp: 2024-11-25 04:28:16.122218
+Timestamp: 2024-12-03 15:56:02.327858
 
 Status: FAILED!
 Check: 2
@@ -25,4 +25,4 @@ User ID:
 Password: 
 .
 Error : AssertionError - Unable to find Jane Smith xxxxxxxxx SmithJ xxxxxxxxxxxx in the program's output.
-Timestamp: 2024-11-25 04:28:16.124406
+Timestamp: 2024-12-03 15:56:02.331231

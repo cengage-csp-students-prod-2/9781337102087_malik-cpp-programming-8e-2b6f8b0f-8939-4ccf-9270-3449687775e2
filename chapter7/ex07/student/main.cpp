@@ -10,10 +10,35 @@ void menu(){
     cout << "4. Division (/)" << endl;
     cout << "0. Exit" << endl;
 }
-void addFractions(int, int, int, int, int&, int&);
-void subtractFractions(int, int, int, int, int&, int&);
-void multiplyFractions(int, int, int, int, int&, int&);
-void divideFractions(int, int, int, int, int&, int&);
+// void addFractions(int, int, int, int, int&, int&)
+void addFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {
+    resultNum = num1 * den2 + num2 * den1;
+    resultDen = den1 * den2;
+}
+// void subtractFractions(int, int, int, int, int&, int&);
+// void multiplyFractions(int, int, int, int, int&, int&);
+// void divideFractions(int, int, int, int, int&, int&);
+
+// Function to add fractions
+
+
+// Function to subtract fractions
+void subtractFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {
+    resultNum = num1 * den2 - num2 * den1;
+    resultDen = den1 * den2;
+}
+
+// Function to multiply fractions
+void multiplyFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {
+    resultNum = num1 * num2;
+    resultDen = den1 * den2;
+}
+
+// Function to divide fractions
+void divideFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {
+    resultNum = num1 * den2;
+    resultDen = den1 * num2;
+}
 
 int main() {
     int choice;
@@ -89,26 +114,4 @@ int main() {
 
 
 
-// Function to add fractions
-void addFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {
-    resultNum = num1 * den2 + num2 * den1;
-    resultDen = den1 * den2;
-}
 
-// Function to subtract fractions
-void subtractFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {
-    resultNum = num1 * den2 - num2 * den1;
-    resultDen = den1 * den2;
-}
-
-// Function to multiply fractions
-void multiplyFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {
-    resultNum = num1 * num2;
-    resultDen = den1 * den2;
-}
-
-// Function to divide fractions
-void divideFractions(int num1, int den1, int num2, int den2, int &resultNum, int &resultDen) {
-    resultNum = num1 * den2;
-    resultDen = den1 * num2;
-}

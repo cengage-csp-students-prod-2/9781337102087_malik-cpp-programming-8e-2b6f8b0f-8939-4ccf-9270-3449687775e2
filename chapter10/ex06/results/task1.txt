@@ -1,0 +1,51 @@
+
+Status: FAILED!
+Check: 1
+Test: Roman numeral conversion test 1
+Reason: Unable to find '['115']' in the program's output.
+Roman numeral: MCXIV
+Integer value: 1114
+-----------------------------
+Roman numeral: CCCLIX
+Integer value: 359
+-----------------------------
+Roman numeral: MDCLXVI
+Integer value: 1666
+-----------------------------
+.
+Error : AssertionError - Unable to find a number close enough to 115 (+/-0.00) in the program's output.
+Timestamp: 2024-12-10 01:21:16.034590
+
+Status: FAILED!
+Check: 2
+Test: Roman numeral conversion test 2
+Reason: Unable to find '['6']' in the program's output.
+Roman numeral: MCXIV
+Integer value: 1114
+-----------------------------
+Roman numeral: CCCLIX
+Integer value: 359
+-----------------------------
+Roman numeral: MDCLXVI
+Integer value: 1666
+-----------------------------
+.
+Error : AssertionError - Unable to find a number close enough to 6 (+/-0.00) in the program's output.
+Timestamp: 2024-12-10 01:21:16.037168
+
+Status: FAILED!
+Check: 3
+Test: Roman numeral conversion test 3
+Reason: Unable to find '['2017']' in the program's output.
+Roman numeral: MCXIV
+Integer value: 1114
+-----------------------------
+Roman numeral: CCCLIX
+Integer value: 359
+-----------------------------
+Roman numeral: MDCLXVI
+Integer value: 1666
+-----------------------------
+.
+Error : AssertionError - Unable to find a number close enough to 2017 (+/-0.00) in the program's output.
+Timestamp: 2024-12-10 01:21:16.039579

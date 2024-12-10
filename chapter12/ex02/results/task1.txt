@@ -1,0 +1,8 @@
+
+Status: FAILED!
+Check: 1
+Test: Used dynamic arrays
+Reason: Unable to find 'str1 = new char[var];
+str2 = new char[var + 1];' in the program.
+Error : str - AssertionError
+Timestamp: 2024-12-10 01:32:48.804399

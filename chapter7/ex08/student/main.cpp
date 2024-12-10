@@ -2,49 +2,33 @@
 #include <string>
 using namespace std;
 
-// Function to mask the digits of a Social Security number and remove dashes
-string maskSSN(const string& ssn) {
-    string maskedSSN;
-    for (size_t i = 0; i < ssn.length(); i++) {
-        if (isdigit(ssn.at(i))) {
-            maskedSSN.append(1, 'x'); // Replace digit with 'x'
+int main() {
+    string studentInfo;
+    int pos = 0;
+
+    cout << "Enter a student's name, Social Security number, "
+         << "user ID, and password in one line: " << endl;
+    getline(cin, studentInfo);
+
+    // Mask digits in the SSN
+    for (int i = 0; i < 9; i++) {
+        pos = studentInfo.find_first_of("0123456789", pos);
+        if (pos != string::npos) {
+            studentInfo.replace(pos, 1, "x");
         }
     }
-    return maskedSSN;
-}
 
-// Function to mask all characters of the password
-string maskPassword(const string& password) {
-    string maskedPassword;
-    for (size_t i = 0; i < password.length(); i++) {
-        maskedPassword.append(1, 'x'); // Replace character with 'x'
+    // Find position of second space after user ID
+    pos = studentInfo.find(' ', pos);
+    pos = studentInfo.find(' ', pos + 1);
+
+    if (pos != string::npos) {
+        // Mask the password
+        int substrLen = studentInfo.length() - pos - 1;
+        studentInfo.replace(pos + 1, substrLen, string(substrLen, 'x'));
     }
-    return maskedPassword;
-}
 
-int main() {
-    string name, ssn, userID, password;
-
-    // Read input
-    cout << "Enter the student's name: ";
-    getline(cin, name);
-    cout << "Enter the Social Security number (in the format 000-00-0000): ";
-    cin >> ssn;
-    cout << "Enter the user ID: ";
-    cin >> userID;
-    cout << "Enter the password: ";
-    cin >> password;
-
-    // Process the SSN and password
-    string maskedSSN = maskSSN(ssn); // Mask SSN digits
-    string maskedPassword = maskPassword(password); // Mask password characters
-
-    // Output the result
-    cout << "\nProcessed Information:" << endl;
-    cout << "Name: " << name << endl;
-    cout << "Social Security Number: " << maskedSSN << endl;
-    cout << "User ID: " << userID << endl;
-    cout << "Password: " << maskedPassword << endl;
-
+    cout << studentInfo << endl;
     return 0;
 }
+

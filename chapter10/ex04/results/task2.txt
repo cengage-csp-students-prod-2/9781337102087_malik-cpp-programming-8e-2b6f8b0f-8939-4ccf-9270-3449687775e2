@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: `counterType`'s `getCounter` returns the value of `counter`, test 1
+Reason: None
+Timestamp: 2024-12-10 01:11:20.701687
+
+Status: PASSED!
+Check: 2
+Test: `counterType`'s `getCounter` returns the value of `counter`, test 2
+Reason: None
+Timestamp: 2024-12-10 01:11:20.704261

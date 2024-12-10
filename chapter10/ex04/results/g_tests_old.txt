@@ -1,0 +1,57 @@
+#include <algorithm>
+#include "counterTypeImp.cpp"
+#include <string>
+TEST(getCounter, 1) {
+    counterType counter;
+    counter.setCounter();
+    ASSERT_EQ(counter.getCounter(), 0);
+}TEST(getCounter, 2) {
+    counterType counter;
+    counter.setCounter(10);
+    ASSERT_EQ(counter.getCounter(), 10);
+}
+TEST(increment, 1) {
+    counterType counter;
+    counter.setCounter(10);
+    counter.incrementCounter();
+    ASSERT_EQ(counter.getCounter(), 11);
+}TEST(increment, 2) {
+    counterType counter;
+    counter.setCounter();
+    counter.incrementCounter();
+    counter.incrementCounter();
+    ASSERT_EQ(counter.getCounter(), 2);
+}
+TEST(decrement, 1) {
+    counterType counter;
+    counter.setCounter(10);
+    counter.decrementCounter();
+    ASSERT_EQ(counter.getCounter(), 9);
+}
+TEST(decrement, 2) {
+    counterType counter;
+    counter.setCounter(5);
+    counter.decrementCounter();
+    counter.decrementCounter();
+    counter.decrementCounter();
+    ASSERT_EQ(counter.getCounter(), 2);
+}
+
+TEST(print, 1) {
+    testing::internal::CaptureStdout();
+    counterType counter(5);
+    counter.decrementCounter();
+    counter.print();
+    std::string output = testing::internal::GetCapturedStdout();
+    output.erase(std::remove(output.begin(), output.end(), '\n'), output.end());
+    ASSERT_EQ(output, "Counter = 4");
+}
+TEST(print, 2) {
+    testing::internal::CaptureStdout();
+    counterType counter;
+    counter.print();
+    std::string output = testing::internal::GetCapturedStdout();
+    output.erase(std::remove(output.begin(), output.end(), '\n'), output.end());
+    ASSERT_EQ(output, "Counter = 0");
+}
+

@@ -3,42 +3,42 @@ Status: PASSED!
 Check: 1
 Test: Check for function `menu`
 Reason: void menu + ` was found in the program.None
-Timestamp: 2024-12-03 15:43:19.771159
+Timestamp: 2024-12-10 00:24:11.519271
 
 Status: PASSED!
 Check: 2
 Test: Check for function `addFractions`
 Reason: void addFractions( + ` was found in the program.None
-Timestamp: 2024-12-03 15:43:19.771465
+Timestamp: 2024-12-10 00:24:11.519551
 
 Status: PASSED!
 Check: 3
 Test: Check for function `subtractFractions`
 Reason: void subtractFractions( + ` was found in the program.None
-Timestamp: 2024-12-03 15:43:19.771700
+Timestamp: 2024-12-10 00:24:11.519771
 
 Status: PASSED!
 Check: 4
 Test: Check for function `multiplyFractions`
 Reason: void.multiplyFractions\( + ` was found in the program.None
-Timestamp: 2024-12-03 15:43:19.771914
+Timestamp: 2024-12-10 00:24:11.519978
 
 Status: PASSED!
 Check: 5
 Test: Check for function `divideFractions`
 Reason: void divideFractions + ` was found in the program.None
-Timestamp: 2024-12-03 15:43:19.772116
+Timestamp: 2024-12-10 00:24:11.520174
 
 Status: FAILED!
 Reason: Unable to run main.cpp
 Error: The program took longer than 5 seconds to execute.
 This may indicate an issue providing input to your program.
 Check your program follows the example in the instructions.
-Timestamp: 2024-12-03 15:43:24.816666
+Timestamp: 2024-12-10 00:24:16.589953
 
 Status: FAILED!
 Reason: Unable to run main.cpp
 Error: The program took longer than 5 seconds to execute.
 This may indicate an issue providing input to your program.
 Check your program follows the example in the instructions.
-Timestamp: 2024-12-03 15:43:24.816770
+Timestamp: 2024-12-10 00:24:16.590070

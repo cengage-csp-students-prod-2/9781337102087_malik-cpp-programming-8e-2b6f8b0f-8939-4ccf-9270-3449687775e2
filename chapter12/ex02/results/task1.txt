@@ -4,4 +4,4 @@ Check: 1
 Test: Used dynamic arrays
 Reason: str1 = new char[var];
 str2 = new char[var + 1]; + ` was found in the program.None
-Timestamp: 2024-12-10 01:33:56.447551
+Timestamp: 2024-12-10 01:35:11.081474

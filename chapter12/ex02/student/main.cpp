@@ -1,22 +1,21 @@
 #include <iostream>
 #include <fstream>
-#include <string>
 #include <iomanip>
 using namespace std;
 
 // Function Prototypes
-void processFile(const string& fileName);
-int calculateScore(const string& answerKey, const string& studentAnswer);
+void processFile(const char* fileName);
+int calculateScore(char* answerKey, char* studentAnswer, int numQuestions);
 char calculateGrade(int score, int totalQuestions);
 
 int main() {
-    string fileName = "Ch12_Ex2Data.txt";
+    const char* fileName = "Ch12_Ex2Data.txt";
     processFile(fileName);
     return 0;
 }
 
 // Function to process the file
-void processFile(const string& fileName) {
+void processFile(const char* fileName) {
     ifstream inFile(fileName);
 
     if (!inFile) {
@@ -24,18 +23,23 @@ void processFile(const string& fileName) {
         return;
     }
 
-    string answerKey;
-    getline(inFile, answerKey);  // Read answer key
+    int numQuestions = 20;
+
+    // Dynamically allocate the answer key array
+    char* answerKey = new char[numQuestions + 1];
+    inFile >> answerKey;
 
     cout << "Processing Data\nKey: " << answerKey << "\n" << endl;
 
-    string studentID, studentAnswer;
-    while (inFile >> studentID) {
-        inFile.ignore();  // Skip space before answers
-        getline(inFile, studentAnswer);
+    char* studentID = new char[10];  // Assuming max length 9 + '\0'
+    char* studentAnswer = new char[numQuestions + 1];
 
-        int score = calculateScore(answerKey, studentAnswer);
-        char grade = calculateGrade(score, answerKey.length());
+    while (inFile >> studentID) {
+        inFile.ignore();  // Skip space
+        inFile.getline(studentAnswer, numQuestions + 1);
+
+        int score = calculateScore(answerKey, studentAnswer, numQuestions);
+        char grade = calculateGrade(score, numQuestions);
 
         // Print results
         cout << setw(10) << left << studentID 
@@ -43,15 +47,20 @@ void processFile(const string& fileName) {
              << setw(5) << score << grade << endl;
     }
 
+    // Free dynamically allocated memory
+    delete[] answerKey;
+    delete[] studentID;
+    delete[] studentAnswer;
+
     inFile.close();
 }
 
 // Function to calculate score
-int calculateScore(const string& answerKey, const string& studentAnswer) {
+int calculateScore(char* answerKey, char* studentAnswer, int numQuestions) {
     int score = 0;
 
-    for (size_t i = 0; i < answerKey.length(); i++) {
-        if (i >= studentAnswer.length() || studentAnswer[i] == ' ') {
+    for (int i = 0; i < numQuestions; i++) {
+        if (studentAnswer[i] == ' ') {
             continue;  // Skipped question, no points deducted
         } else if (studentAnswer[i] == answerKey[i]) {
             score += 2;  // Correct answer

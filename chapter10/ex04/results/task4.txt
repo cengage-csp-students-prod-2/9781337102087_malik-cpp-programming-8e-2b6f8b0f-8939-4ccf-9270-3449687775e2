@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: `counterType`'s `decrementCounter` decrements the value of `counter`, test 1
 Reason: None
-Timestamp: 2024-12-10 01:11:20.711787
+Timestamp: 2024-12-10 01:13:39.124615
 
 Status: PASSED!
 Check: 2
 Test: `counterType`'s `decrementCounter` decrements the value of `counter`, test 2
 Reason: None
-Timestamp: 2024-12-10 01:11:20.714291
+Timestamp: 2024-12-10 01:13:39.127112

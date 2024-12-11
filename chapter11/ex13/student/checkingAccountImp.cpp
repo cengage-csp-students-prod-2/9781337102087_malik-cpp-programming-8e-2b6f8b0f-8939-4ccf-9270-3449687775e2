@@ -48,10 +48,19 @@ void checkingAccount::writeCheck(double amount) {
 }
 
 void checkingAccount::withdraw(double amount) {
+    // Deny withdrawal if there aren't enough funds
     if (balance - amount < minimumBalance) {
-        balance -= serviceCharge; // Charge a service fee if below minimum balance
+        cout << "Insufficient funds! Withdrawal denied." << endl;
+        return;  // Deny withdrawal if balance goes below minimum balance
+    }
+
+    // If withdrawal would result in insufficient balance, apply service charge
+    if (balance - amount < 0) {
+        balance -= serviceCharge;  // Apply service charge
         cout << "Service charge applied!" << endl;
     }
+
+    // Proceed with withdrawal
     bankAccount::withdraw(amount);
 }
 

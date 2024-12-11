@@ -1,40 +1,36 @@
 #ifndef H_largeIntegers
-#define H_largeIntegers
-
+#define H_largeIntegers  
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+using namespace std;
 
 class largeIntegers {
-private:
-    std::vector<int> digits; // to store the digits of the large integer
-
 public:
-    largeIntegers(); // Default constructor
-    largeIntegers(const std::string& number); // Constructor to initialize from string
-    largeIntegers(const largeIntegers& other); // Copy constructor
-    ~largeIntegers(); // Destructor
-
-    void setValue(const std::string& number); // Set value from string
-    std::string getValue() const; // Get value as a string
-    void printValue() const; // Print value
-    
-    // Arithmetic operations
-    largeIntegers add(const largeIntegers& other) const;
-    largeIntegers subtract(const largeIntegers& other) const;
-    largeIntegers multiply(const largeIntegers& other) const;
-    
-    // Comparison operations
-    bool equalTo(const largeIntegers& other) const;
-    bool notEqualTo(const largeIntegers& other) const;
-    bool greaterThan(const largeIntegers& other) const;
-    bool lessThan(const largeIntegers& other) const;
-    bool greaterOrEqual(const largeIntegers& other) const;
-    bool lessOrEqual(const largeIntegers& other) const;
-
-    // Helper function to remove leading zeros
-    void removeLeadingZeros();
+    void setNum(int list[], int length);
+    void printNum(ostream&);
+    void getNum(istream&);
+    void copyNum(const largeIntegers& right);
+    bool equal(const largeIntegers& right) const;
+    bool notEqual(const largeIntegers& right) const;
+    bool greaterThan(const largeIntegers& right) const;
+    bool lessThan(const largeIntegers& right) const;
+    bool lessOrEqualTo(const largeIntegers& right) const;
+    bool greaterOrEqualTo(const largeIntegers& right) const;
+    largeIntegers add(const largeIntegers& num);
+    largeIntegers subtract(const largeIntegers& num); 
+    largeIntegers multiply(const largeIntegers& num);
+    largeIntegers();
+    largeIntegers(int list[], int length = 0, char numSign = '+');
+      //constructor
+private:
+    largeIntegers sumNum(const largeIntegers& num);
+    largeIntegers subtractNum(const largeIntegers& num);
+      //This function assumes that this number is greater than or
+      //equal to num
+    largeIntegers multiplyDigit(int digit);
+    int max(int a, int b);
+    int *number;
+    int numOfDigits;
+    char sign;
+//    int maxNumOfDigits;
 };
-
 #endif

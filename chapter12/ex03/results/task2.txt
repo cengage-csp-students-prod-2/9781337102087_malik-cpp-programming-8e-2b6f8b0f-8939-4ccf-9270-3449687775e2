@@ -1,16 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Testing the correct calculation of election results
-Reason: Unable to find '['Candidate Votes Received % of Total Votes', 'Vader 1300 19.59', 'Kirk 1250 18.84', 'Adama 1000 15.07', 'Reynolds 1615 24.34', 'Oneill 1470 22.16', 'Total 6635', 'The Winner of the Election is: Reynolds']' in the program's output.
-Enter the number of candidates: Enter the last name of candidate 1: Enter the number of votes for Vader: Enter the last name of candidate 2: Enter the number of votes for Kirk: Enter the last name of candidate 3: Enter the number of votes for Adama: Enter the last name of candidate 4: Enter the number of votes for Reynolds: Enter the last name of candidate 5: Enter the number of votes for Oneill: Candidate	Votes Received	% of Total Votes
-Vader	1300	19.59%
-Kirk	1250	18.84%
-Adama	1000	15.07%
-Reynolds	1615	24.34%
-Oneill	1470	22.16%
-Total	6635
-The Winner of the Election is Reynolds
-.
-Error : AssertionError - Unable to find The Winner of the Election is:\s+\w+ in the program's output.
-Timestamp: 2024-12-11 09:06:42.575592
+Reason: None
+Timestamp: 2024-12-11 09:07:17.006223

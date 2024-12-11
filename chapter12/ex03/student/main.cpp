@@ -52,7 +52,7 @@ int main() {
     }
 
     // Output the winner in the exact format required
-    cout << "The Winner of the Election is " << candidates[winnerIndex] << endl;
+    cout << "The Winner of the Election is: " << candidates[winnerIndex] << endl;
 
     // Clean up dynamically allocated memory
     delete[] candidates;

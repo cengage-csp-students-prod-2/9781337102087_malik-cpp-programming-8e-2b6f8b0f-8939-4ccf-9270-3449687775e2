@@ -1,0 +1,21 @@
+#include "largeIntegers.h"
+#include "largeIntegers.cpp"
+int numList1[] = {2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2}; // 21 characters
+int numList2[] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}; // 21 characters
+int numResults[] = {3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3};
+largeIntegers num1(numList1, 21, '+');
+largeIntegers num2(numList2, 21, '+');
+largeIntegers result(numResults, 21, '+');
+
+TEST(Add, 0) {
+     ASSERT_TRUE(num1.add(num2).equal(result));
+}int numList1[] = {2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2}; // 21 characters
+int numList2[] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}; // 21 characters
+int numResults[] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+largeIntegers num1(numList1, 21, '+');
+largeIntegers num2(numList2, 21, '+');
+largeIntegers result(numResults, 21, '+');
+
+TEST(Subtract, 0) {
+     ASSERT_TRUE(num1.subtract(num2).equal(result));
+}

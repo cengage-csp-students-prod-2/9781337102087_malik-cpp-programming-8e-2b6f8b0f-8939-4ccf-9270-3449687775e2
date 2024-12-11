@@ -1,18 +1,19 @@
-#ifndef ADDRESS_BOOK_TYPE_H
-#define ADDRESS_BOOK_TYPE_H
+#ifndef ADDRESSBOOKTYPE_H
+#define ADDRESSBOOKTYPE_H
 
-#include "extPersonType.h"  // Include the header for extPersonType
+#include "extPersonType.h"
+#include <vector>
+using namespace std;
 
 class addressBookType {
 public:
-    addressBookType();  // Constructor declaration
-    void loadData(const std::string& filename);
+    void loadData(string fileName);
     void printAll() const;
-    void saveData(const std::string& filename) const;  // Declare saveData method
+    void searchByLastName(string lastName) const;
+    void printByMonth(int month) const;
 
 private:
-    extPersonType* addressBook;  // Pointer to store the address book entries
-    int numEntries;
+    vector<extPersonType> addressBook;
 };
 
 #endif

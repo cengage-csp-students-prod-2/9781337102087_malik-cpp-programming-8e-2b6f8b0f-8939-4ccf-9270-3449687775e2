@@ -1,25 +1,29 @@
 #ifndef EXTPERSONTYPE_H
 #define EXTPERSONTYPE_H
 
+#include "personType.h"
+#include "addressType.h"
+#include "dateType.h"
 #include <string>
 
-class extPersonType {
+class extPersonType : public personType {
 public:
-    void setName(const std::string& firstName, const std::string& lastName);
-    void setPersonInfo(const std::string& street, const std::string& city, const std::string& state,
-                       const std::string& zip, const std::string& phone, int month, int day, int year, const std::string& status);
-    void printPersonInfo() const;
+    void setInfo(string fName, string lName, string phone, 
+                 string str, string c, string st, string z,
+                 int m, int d, int y, string pType);
+
+    void print() const;
+    string getPhone() const;
+    int getBirthMonth() const;
+    string getType() const;
+
+    extPersonType();
 
 private:
-    std::string firstName;
-    std::string lastName;
-    std::string street;
-    std::string city;
-    std::string state;
-    std::string zip;
-    std::string phoneNumber;
-    int month, day, year;
-    std::string status;
+    string phoneNumber;
+    addressType address;
+    dateType dob;
+    string personType;
 };
 
 #endif

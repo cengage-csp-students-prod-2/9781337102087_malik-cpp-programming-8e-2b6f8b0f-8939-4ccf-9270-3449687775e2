@@ -1,38 +1,36 @@
 #include "extPersonType.h"
 #include <iostream>
-
 using namespace std;
 
-extPersonType::extPersonType(string first, string last, string street, string city, string state, string zip, string phone, int month, int day, int year, string status)
-    : personType(first, last), address(street, city, state, zip), dob(month, day, year), phoneNumber(phone), status(status) {}
+extPersonType::extPersonType() : personType("",""), phoneNumber(""), personType("") {}
 
-void extPersonType::setPersonInfo(string street, string city, string state, string zip, string phone, int month, int day, int year, string status) {
-    address.setAddress(street, city, state, zip);
-    dob.setDate(month, day, year);
+void extPersonType::setInfo(string fName, string lName, string phone, 
+                            string str, string c, string st, string z, 
+                            int m, int d, int y, string pType) {
+    setName(fName, lName);
     phoneNumber = phone;
-    status = status;
+    address.setAddress(str, c, st, z);
+    dob.setDate(m, d, y);
+    personType = pType;
 }
 
-void extPersonType::printPersonInfo() const {
-    print();
-    dob.printDate();
-    cout << endl;
-    address.printAddress(cout);
-    cout << phoneNumber << " " << status << endl;
+void extPersonType::print() const {
+    cout << firstName << " " << lastName << endl;
+    cout << "Date of Birth: ";
+    dob.print();
+    cout << "\nPhone Number: " << phoneNumber << endl;
+    cout << "Person Type: " << personType << endl;
+    address.print();
 }
 
-string extPersonType::getPhoneNumber() const {
+string extPersonType::getPhone() const {
     return phoneNumber;
 }
 
-string extPersonType::getStatus() const {
-    return status;
+int extPersonType::getBirthMonth() const {
+    return dob.getMonth();
 }
 
-addressType extPersonType::getAddress() const {
-    return address;
-}
-
-dateType extPersonType::getDob() const {
-    return dob;
+string extPersonType::getType() const {
+    return personType;
 }

@@ -1,30 +1,24 @@
 #include "addressBookType.h"
-#include <iostream>
 #include <fstream>
 
-using namespace std;
-
-void addressBookType::saveData(const string& filename) const {
-    ofstream outFile(filename);
-
+void addressBookType::saveData(const std::string& filename) const {
+    std::ofstream outFile(filename);
+    
     if (outFile) {
         for (int i = 0; i < numEntries; ++i) {
-            outFile << addressBook[i].getFirstName() << " " << addressBook[i].getLastName() << " ";
-            
-            // Access dob using getDob
-            outFile << addressBook[i].getDob().getMonth() << " "
+            outFile << addressBook[i].getFirstName() << " "
+                    << addressBook[i].getLastName() << " "
+                    << addressBook[i].getDob().getMonth() << " "
                     << addressBook[i].getDob().getDay() << " "
-                    << addressBook[i].getDob().getYear() << " ";
-            
-            // Access address using getAddress
-            outFile << addressBook[i].getAddress().getStreet() << " "
-                    << addressBook[i].getAddress().getCity() << " "
-                    << addressBook[i].getAddress().getState() << " "
-                    << addressBook[i].getAddress().getZip() << " ";
-            
-            // Access phone number and status using their respective getters
-            outFile << addressBook[i].getPhoneNumber() << " "
-                    << addressBook[i].getStatus() << endl;
+                    << addressBook[i].getDob().getYear() << " "
+                    << addressBook[i].getStreet() << " "
+                    << addressBook[i].getCity() << " "
+                    << addressBook[i].getState() << " "
+                    << addressBook[i].getZip() << " "
+                    << addressBook[i].getPhoneNumber() << " "
+                    << addressBook[i].getStatus() << std::endl;
         }
+    } else {
+        std::cerr << "Error opening file!" << std::endl;
     }
 }

@@ -1,27 +1,17 @@
 #ifndef ADDRESS_BOOK_TYPE_H
 #define ADDRESS_BOOK_TYPE_H
 
-#include "extPersonType.h"
-#include <string>
-
-const int MAX_ENTRIES = 500;
+#include "extPersonType.h"  // Include the header for extPersonType
 
 class addressBookType {
 public:
-    addressBookType();
-
-    void loadData(const string& filename);
-    void saveData(const string& filename) const;
-    void sortAddressBook();
-    void searchByLastName(const string& lastName) const;
-    void printPersonInfo(const string& lastName) const;
-    void printBirthdayMonth(int month) const;
-    void printRangeOfNames(const string& startLastName, const string& endLastName) const;
-    void printStatus(const string& status) const;
+    addressBookType();  // Constructor declaration
+    void loadData(const std::string& filename);
     void printAll() const;
+    void saveData(const std::string& filename) const;  // Declare saveData method
 
 private:
-    extPersonType addressBook[MAX_ENTRIES];
+    extPersonType* addressBook;  // Pointer to store the address book entries
     int numEntries;
 };
 

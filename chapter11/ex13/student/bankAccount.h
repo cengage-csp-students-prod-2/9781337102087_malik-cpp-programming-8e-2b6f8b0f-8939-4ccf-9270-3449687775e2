@@ -1,19 +1,23 @@
-
-//Class bankAccount
-  
 #ifndef H_bankAccount 
 #define H_bankAccount
 
 class bankAccount
 {
 public:
-    void setAccountNumber(int acct);
-    int getAccountNumber() const;
-    double getBalance() const; 
-    void withdraw(double amount);
-    void deposit(double amount);
-    void print() const;
+    // Constructor
     bankAccount(int acctNumber = -1, double bal = 0);
+
+    // Setters
+    void setAccountNumber(int acct);
+    void deposit(double amount);
+    void withdraw(double amount);
+
+    // Getters
+    int getAccountNumber() const;
+    double getBalance() const;
+
+    // Print account info
+    void print() const;
 
 protected:
     int accountNumber;

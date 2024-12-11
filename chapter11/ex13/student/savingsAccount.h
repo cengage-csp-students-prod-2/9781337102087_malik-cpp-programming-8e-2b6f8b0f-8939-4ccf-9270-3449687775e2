@@ -1,22 +1,24 @@
-//Class savingsAccount 
-
 #ifndef H_savingsAccount
 #define H_savingsAccount
-   
+
 #include "bankAccount.h"
 
 const double DEFAULT_INTEREST_RATE_SAVINGS = 0.06;
 
-class savingsAccount: public bankAccount
-{ 
+class savingsAccount : public bankAccount
+{
 public:
-    double getInterestRate() const;
+    // Constructor
+    savingsAccount(int acctNumber, double bal, double intRate = DEFAULT_INTEREST_RATE_SAVINGS);
+
+    // Setters and Getters
     void setInterestRate(double rate);
-    void withdraw(double amount);
+    double getInterestRate() const;
+
+    // Operations
     void postInterest();
-    void savingsAccount::print() const;
-    savingsAccount(int acctNumber, double bal, 
-                   double intRate = DEFAULT_INTEREST_RATE_SAVINGS);
+    void withdraw(double amount);
+    void print() const;
 
 protected:
     double interestRate;

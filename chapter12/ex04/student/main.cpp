@@ -1,4 +1,7 @@
 #include "largeIntegers.h"
+#include <iostream>
+
+using namespace std;
 
 int main() {
     largeIntegers num1("123456789012345678901234567890");

@@ -3,28 +3,28 @@ Status: PASSED!
 Check: 1
 Test: Creating a savings account without error
 Reason: None
-Timestamp: 2024-12-11 08:45:41.226432
+Timestamp: 2024-12-11 08:48:23.383856
 
 Status: PASSED!
 Check: 2
 Test: `deposit` and `getBalance` member functions works as expected for the `savingsAccount` class
 Reason: None
-Timestamp: 2024-12-11 08:45:41.229003
+Timestamp: 2024-12-11 08:48:23.386466
 
 Status: PASSED!
 Check: 3
 Test: `withdraw` member function works as expected for the `savingsAccount` class
 Reason: None
-Timestamp: 2024-12-11 08:45:41.231518
+Timestamp: 2024-12-11 08:48:23.388958
 
 Status: PASSED!
 Check: 4
 Test: `savingsAccount` class can get and set the interest rate
 Reason: None
-Timestamp: 2024-12-11 08:45:41.234276
+Timestamp: 2024-12-11 08:48:23.391570
 
 Status: PASSED!
 Check: 5
 Test: `postInterest` member  function of the `savingsAccount` class works as expected
 Reason: None
-Timestamp: 2024-12-11 08:45:41.236790
+Timestamp: 2024-12-11 08:48:23.394119

@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-12-11 07:06:15.493069
+Test: The `dayType` member variable `print` works as expected
+Reason: None
+Timestamp: 2024-12-11 07:17:36.647147

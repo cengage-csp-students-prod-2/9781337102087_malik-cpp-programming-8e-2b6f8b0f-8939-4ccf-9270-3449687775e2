@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Creating a bank account without error
 Reason: None
-Timestamp: 2024-12-11 08:48:23.353136
+Timestamp: 2024-12-11 08:48:59.774947
 
 Status: PASSED!
 Check: 2
 Test: `deposit` and `getBalance`member functions works as expected for the `bankAccount` class
 Reason: None
-Timestamp: 2024-12-11 08:48:23.355813
+Timestamp: 2024-12-11 08:48:59.777565
 
 Status: PASSED!
 Check: 3
 Test: `bankAccount` class can get and set the account number
 Reason: None
-Timestamp: 2024-12-11 08:48:23.358356
+Timestamp: 2024-12-11 08:48:59.780096

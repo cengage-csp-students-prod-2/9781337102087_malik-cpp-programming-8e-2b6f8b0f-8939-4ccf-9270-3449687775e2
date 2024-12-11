@@ -4,4 +4,4 @@ Check: 1
 Test: Used dynamic arrays
 Reason: candidates = new string[numberOfCandidates];
  + ` was found in the program.None
-Timestamp: 2024-12-11 09:03:18.475838
+Timestamp: 2024-12-11 09:04:51.258553

@@ -13,4 +13,4 @@ Total	6635
 The Winner of the Election is Reynolds
 .
 Error : AssertionError - Unable to find The Winner of the Election is:\s+\w+ in the program's output.
-Timestamp: 2024-12-11 09:03:18.479943
+Timestamp: 2024-12-11 09:04:51.262095

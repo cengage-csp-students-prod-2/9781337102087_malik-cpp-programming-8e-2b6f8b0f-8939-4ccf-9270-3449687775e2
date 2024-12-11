@@ -1,6 +1,6 @@
 #include <iostream>
-#include <vector>
 #include <iomanip>
+#include <string>
 
 using namespace std;
 
@@ -11,9 +11,9 @@ int main() {
     cout << "Enter the number of candidates: ";
     cin >> numCandidates;
 
-    // Dynamic arrays using vectors to hold candidate names and votes
-    vector<string> candidates(numCandidates);
-    vector<int> votes(numCandidates);
+    // Dynamic arrays using 'new'
+    string* candidates = new string[numCandidates];
+    int* votes = new int[numCandidates];
 
     // Input the names and votes for each candidate
     for (int i = 0; i < numCandidates; ++i) {
@@ -32,6 +32,7 @@ int main() {
     // Display the results
     cout << fixed << setprecision(2);
     cout << "Candidate\tVotes Received\t% of Total Votes" << endl;
+
     for (int i = 0; i < numCandidates; ++i) {
         double percentage = (static_cast<double>(votes[i]) / totalVotes) * 100;
         cout << candidates[i] << "\t" << votes[i] << "\t" << percentage << "%" << endl;
@@ -50,7 +51,12 @@ int main() {
         }
     }
 
+    // Output the winner in the exact format required
     cout << "The Winner of the Election is " << candidates[winnerIndex] << endl;
+
+    // Clean up dynamically allocated memory
+    delete[] candidates;
+    delete[] votes;
 
     return 0;
 }

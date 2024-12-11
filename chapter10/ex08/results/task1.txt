@@ -3,4 +3,4 @@ Status: PASSED!
 Check: 1
 Test: The `dayType` can be initialized
 Reason: None
-Timestamp: 2024-12-11 07:17:36.639551
+Timestamp: 2024-12-11 07:19:51.826431

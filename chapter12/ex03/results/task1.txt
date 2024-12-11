@@ -1,0 +1,8 @@
+
+Status: FAILED!
+Check: 1
+Test: Used dynamic arrays
+Reason: Unable to find 'candidates = new string[numberOfCandidates];
+' in the program.
+Error : str - AssertionError
+Timestamp: 2024-12-11 09:01:17.259456

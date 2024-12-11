@@ -1,0 +1,49 @@
+#include "dayTypeImp.cpp"
+TEST(Days, 1) {
+  testing::internal::CaptureStdout();
+  dayType myDay("Monday");
+    dayType temp("Sunday");
+
+    myDay.print();
+    cout << endl;
+
+    cout << myDay.prevDay() << endl;
+
+    cout << myDay.nextDay() << endl;
+
+    temp.print();
+    cout << endl;
+
+    cout << temp.prevDay() << endl;
+
+    cout << temp.nextDay() << endl;
+   std::string output = testing::internal::GetCapturedStdout();
+   ASSERT_EQ(output, "Monday\nSunday\nTuesday\nSunday\nSaturday\nMonday\n");
+}
+void dayTypeInitialization() {
+    dayType myDay("Monday");
+}
+
+TEST(dayType, 1) {
+   ASSERT_NO_THROW(dayTypeInitialization()) << "The unit test was unable to initialize a dayType object successfully.";
+}
+TEST(dayType, 2) {
+    dayType myDay("Monday");
+    ASSERT_EQ(myDay.prevDay(), "Sunday");
+}
+TEST(dayType, 3) {
+    dayType myDay("Wednesday");
+    ASSERT_EQ(myDay.nextDay(), "Thursday");
+}
+TEST(dayType, 5) {
+    testing::internal::CaptureStdout();
+    dayType myDay("Sunday");
+    myDay.print();
+    std::string output = testing::internal::GetCapturedStdout();
+    ASSERT_EQ(output, "Sunday");
+}
+TEST(dayType, 6) {
+    dayType myDay("Wednesday");
+    myDay.addDay(5);
+    ASSERT_EQ(myDay.getDay(), "Monday");
+}

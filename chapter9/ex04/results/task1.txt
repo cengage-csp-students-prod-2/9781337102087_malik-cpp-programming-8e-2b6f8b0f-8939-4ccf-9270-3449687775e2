@@ -19,7 +19,7 @@ Select another item Y/y (Yes), N/n (No):
 No items ordered.
 .
 Error : AssertionError - Unable to find Tax in the program's output.
-Timestamp: 2024-12-11 22:41:35.365792
+Timestamp: 2024-12-11 22:41:58.257470
 
 Status: FAILED!
 Check: 2
@@ -41,4 +41,4 @@ Select another item Y/y (Yes), N/n (No):
 No items ordered.
 .
 Error : AssertionError - Unable to find Tax in the program's output.
-Timestamp: 2024-12-11 22:41:35.369259
+Timestamp: 2024-12-11 22:41:58.259734

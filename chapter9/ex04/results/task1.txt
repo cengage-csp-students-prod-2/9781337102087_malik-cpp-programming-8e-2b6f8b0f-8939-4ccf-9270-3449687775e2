@@ -16,12 +16,10 @@ Welcome to Johnny's Restaurant
 
 Enter item number (1-8): Invalid item number. Please try again.
 Select another item Y/y (Yes), N/n (No): 
-Welcome to Johnny's Restaurant
-Tax            $0.00
-Amount Due     $0.00
+No items ordered.
 .
-Error : AssertionError - Unable to find $0.20 in the program's output.
-Timestamp: 2024-12-11 22:39:52.039218
+Error : AssertionError - Unable to find Tax in the program's output.
+Timestamp: 2024-12-11 22:41:00.740583
 
 Status: FAILED!
 Check: 2
@@ -40,9 +38,7 @@ Welcome to Johnny's Restaurant
 
 Enter item number (1-8): Invalid item number. Please try again.
 Select another item Y/y (Yes), N/n (No): 
-Welcome to Johnny's Restaurant
-Tax            $0.00
-Amount Due     $0.00
+No items ordered.
 .
-Error : AssertionError - Unable to find $0.26 in the program's output.
-Timestamp: 2024-12-11 22:39:52.042885
+Error : AssertionError - Unable to find Tax in the program's output.
+Timestamp: 2024-12-11 22:41:00.742911

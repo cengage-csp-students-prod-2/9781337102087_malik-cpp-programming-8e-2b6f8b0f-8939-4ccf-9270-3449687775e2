@@ -1,0 +1,58 @@
+
+Status: PASSED!
+Check: 1
+Test: Creating a checking account without error
+Reason: None
+Timestamp: 2024-12-11 08:44:59.593179
+
+Status: PASSED!
+Check: 2
+Test: `deposit` and `getBalance` member functions works as expected for the `checkingAccount` class
+Reason: None
+Timestamp: 2024-12-11 08:44:59.595766
+
+Status: PASSED!
+Check: 3
+Test: `withdraw` member function works as expected for the `checkingAccount` class
+Reason: None
+Timestamp: 2024-12-11 08:44:59.598376
+
+Status: PASSED!
+Check: 4
+Test: `checkingAccount` class can get and set the interest rate
+Reason: None
+Timestamp: 2024-12-11 08:44:59.600880
+
+Status: PASSED!
+Check: 5
+Test: `checkingAccount` class can set and get the minimum balance
+Reason: None
+Timestamp: 2024-12-11 08:44:59.603405
+
+Status: PASSED!
+Check: 6
+Test: `checkingAccount` class can set and get the service charge
+Reason: None
+Timestamp: 2024-12-11 08:44:59.606027
+
+Status: FAILED!
+Check: 7
+Test: The `checkingAccount` `withdraw` method denies a transaction when there are not enough funds in an account
+Reason: Service charge applied!
+Insufficient balance!
+tests.cpp:151: failed: testAccount.getBalance() == 100 for: 80.0 == 100 with 5 messages: 'Creating checking account' and 'Setting minimum balance to 50' and 'Withdrawing 110' and 'Checking balance' and 'The transaction should have been denied as there are not enough funds in the account.'
+Failed 1 test case, failed 1 assertion.
+Error : str - AssertionError
+Timestamp: 2024-12-11 08:44:59.608634
+
+Status: PASSED!
+Check: 8
+Test: `writeCheck` member  function of the `checkingAccount` class works as expected
+Reason: None
+Timestamp: 2024-12-11 08:44:59.611173
+
+Status: PASSED!
+Check: 9
+Test: `postInterest` member  function of the `checkingAccount` class works as expected
+Reason: None
+Timestamp: 2024-12-11 08:44:59.613807

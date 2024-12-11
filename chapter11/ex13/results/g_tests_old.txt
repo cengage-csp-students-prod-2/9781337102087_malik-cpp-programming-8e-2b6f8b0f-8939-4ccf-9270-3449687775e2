@@ -1,0 +1,119 @@
+#include "checkingAccount.cpp"
+#include "savingsAccount.cpp"
+#include "bankAccount.cpp"
+void foo() {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    bankAccount testAccount(accountNumber, accountValue);
+}
+
+TEST(bankingAccount, 1) {
+    ASSERT_NO_THROW(foo());
+}TEST(bankAccount, 2) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    bankAccount testAccount(accountNumber, accountValue);
+    ASSERT_NO_THROW(testAccount.deposit(5));
+    ASSERT_EQ(testAccount.getBalance(), 1005);
+}TEST(bankAccount, 3) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    bankAccount testAccount(accountNumber, accountValue);
+    testAccount.setAccountNumber(3);
+    ASSERT_EQ(testAccount.getAccountNumber(), 3);
+}
+void foo() {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    checkingAccount testAccount(accountNumber, accountValue);
+}
+
+TEST(checkingAccount, 1) {
+    ASSERT_NO_THROW(foo());
+}TEST(checkingAccount, 2) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    checkingAccount testAccount(accountNumber, accountValue);
+    ASSERT_NO_THROW(testAccount.deposit(5));
+    ASSERT_EQ(testAccount.getBalance(), 1005);
+}TEST(checkingAccount, 3) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    checkingAccount testAccount(accountNumber, accountValue);
+    testAccount.withdraw(5);
+    ASSERT_EQ(testAccount.getBalance(), 995);
+}TEST(checkingAccount, 4) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    checkingAccount testAccount(accountNumber, accountValue);
+    testAccount.setInterestRate(2.4);
+    ASSERT_EQ(testAccount.getInterestRate(), 2.4);
+}TEST(checkingAccount, 5) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    checkingAccount testAccount(accountNumber, accountValue);
+    ASSERT_NO_THROW(testAccount.setMinimumBalance(25));
+    ASSERT_EQ(testAccount.getMinimumBalance(), 25);
+}TEST(checkingAccount, 6) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    checkingAccount testAccount(accountNumber, accountValue);
+    ASSERT_NO_THROW(testAccount.setServiceCharge(25));
+    ASSERT_EQ(testAccount.getServiceCharge(), 25);
+}TEST(checkingAccount, 7) {
+    int accountNumber = 1;
+    double accountValue = 100;
+    checkingAccount testAccount(accountNumber, accountValue);
+    testAccount.setMinimumBalance(50);
+    testAccount.withdraw(110);
+    ASSERT_EQ(testAccount.getBalance(), 100) << "The transaction should have been denied as there are not enough funds in the account.";
+}TEST(checkingAccount, 9) {
+    int accountNumber = 1;
+    double accountValue = 100;
+    checkingAccount testAccount(accountNumber, accountValue);
+    testAccount.setMinimumBalance(10.00);
+    testAccount.setServiceCharge(0);
+    testAccount.writeCheck(50.50);
+    ASSERT_EQ(testAccount.getBalance(), 49.50);
+} TEST(checkingAccount, 10) {
+    int accountNumber = 1;
+    double accountValue = 100;
+    checkingAccount testAccount(accountNumber, accountValue);
+    testAccount.setInterestRate(.10);
+    testAccount.postInterest();
+    ASSERT_EQ(testAccount.getBalance(), 110);
+}
+void foo() {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    savingsAccount testAccount(accountNumber, accountValue);
+}
+
+TEST(savingsAccount, 1) {
+    ASSERT_NO_THROW(foo());
+}TEST(savingsAccount, 2) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    savingsAccount testAccount(accountNumber, accountValue);
+    ASSERT_NO_THROW(testAccount.deposit(5));
+    ASSERT_EQ(testAccount.getBalance(), 1005);
+}TEST(savingsAccount, 3) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    savingsAccount testAccount(accountNumber, accountValue);
+    testAccount.withdraw(5);
+    ASSERT_EQ(testAccount.getBalance(), 995);
+}TEST(savingsAccount, 4) {
+    int accountNumber = 1;
+    double accountValue = 1000;
+    savingsAccount testAccount(accountNumber, accountValue);
+    ASSERT_NO_THROW(testAccount.setInterestRate(2.4));
+    ASSERT_EQ(testAccount.getInterestRate(), 2.4);
+}TEST(savingsAccount, 5) {
+    int accountNumber = 1;
+    double accountValue = 100;
+    savingsAccount testAccount(accountNumber, accountValue);
+    testAccount.setInterestRate(.10);
+    testAccount.postInterest();
+    ASSERT_EQ(testAccount.getBalance(), 110);
+}

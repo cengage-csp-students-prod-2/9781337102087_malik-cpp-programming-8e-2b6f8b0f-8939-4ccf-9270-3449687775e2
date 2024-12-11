@@ -1,5 +1,5 @@
-#ifndef EXTPERSON_TYPE_H
-#define EXTPERSON_TYPE_H
+#ifndef EXT_PERSON_TYPE_H
+#define EXT_PERSON_TYPE_H
 
 #include "personType.h"
 #include "addressType.h"
@@ -15,11 +15,17 @@ public:
     void setPersonInfo(string street, string city, string state, string zip, string phone, int month, int day, int year, string status);
     void printPersonInfo() const;
 
+    // Getter functions
+    string getPhoneNumber() const;
+    string getStatus() const;
+    addressType getAddress() const;
+    dateType getDob() const;
+
 private:
     addressType address;
     dateType dob;
     string phoneNumber;
-    string status;  // Family, Friend, or Business
+    string status;
 };
 
 #endif

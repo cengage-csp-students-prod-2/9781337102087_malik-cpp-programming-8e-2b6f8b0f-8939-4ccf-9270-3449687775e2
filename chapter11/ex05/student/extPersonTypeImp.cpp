@@ -1,36 +1,31 @@
-#include "extPersonType.h"
 #include <iostream>
+#include "extPersonType.h"
+
 using namespace std;
 
-extPersonType::extPersonType() : personType("",""), phoneNumber(""), personType("") {}
+extPersonType::extPersonType(string first, string last, int month, int day, int year,
+                            string street, string city, string state, string zip,
+                            string phone, string status)
+   : personType(first, last), street(street), city(city), state(state), zip(zip), phone(phone), pStatus(status) {
+   birthDate.setDate(month, day, year);  // Set birth date using dateType
+}
 
-void extPersonType::setInfo(string fName, string lName, string phone, 
-                            string str, string c, string st, string z, 
-                            int m, int d, int y, string pType) {
-    setName(fName, lName);
-    phoneNumber = phone;
-    address.setAddress(str, c, st, z);
-    dob.setDate(m, d, y);
-    personType = pType;
+void extPersonType::setInfo(int month, int day, int year, string street, string city, string state,
+                           string zip, string phone, string status) {
+   birthDate.setDate(month, day, year);
+   this->street = street;
+   this->city = city;
+   this->state = state;
+   this->zip = zip;
+   this->phone = phone;
+   this->pStatus = status;
 }
 
 void extPersonType::print() const {
-    cout << firstName << " " << lastName << endl;
-    cout << "Date of Birth: ";
-    dob.print();
-    cout << "\nPhone Number: " << phoneNumber << endl;
-    cout << "Person Type: " << personType << endl;
-    address.print();
-}
-
-string extPersonType::getPhone() const {
-    return phoneNumber;
-}
-
-int extPersonType::getBirthMonth() const {
-    return dob.getMonth();
-}
-
-string extPersonType::getType() const {
-    return personType;
+   personType::print();  // Print name with newline
+   cout << "Date of Birth: " << birthDate.getMonth() << "-"
+        << birthDate.getDay() << "-" << birthDate.getYear() << endl;
+   cout << "Address: " << street << ", " << city << ", " << state << " - " << zip << endl;
+   cout << "Phone Number: " << phone << endl;
+   cout << "Person Type: " << pStatus << endl;
 }

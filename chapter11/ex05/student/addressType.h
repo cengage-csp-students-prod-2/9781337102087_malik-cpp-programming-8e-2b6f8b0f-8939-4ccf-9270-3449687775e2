@@ -1,21 +1,21 @@
-// addressType.h
-#ifndef ADDRESSTYPE_H
-#define ADDRESSTYPE_H
+#ifndef H_addressType
+#define H_addressType
 
 #include <string>
-#include <iostream>
-using namespace std;
 
 class addressType {
 public:
-    addressType(string street = "", string city = "", string state = "", string zip = "");
-    void setAddress(string street, string city, string state, string zip);
-    void printAddress() const;
+   void setAddress(std::string street, std::string city, std::string state, std::string zip);
+   std::string getStreet() const;
+   std::string getCity() const;
+   std::string getState() const;
+   std::string getZip() const;
+
 private:
-    string streetAddress;
-    string city;
-    string state;
-    string zipCode;
+   std::string street;
+   std::string city;
+   std::string state;
+   std::string zip;
 };
 
 #endif

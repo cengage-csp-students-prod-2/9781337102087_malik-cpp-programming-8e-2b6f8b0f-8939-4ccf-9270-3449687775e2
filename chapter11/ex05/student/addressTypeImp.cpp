@@ -1,16 +1,25 @@
-// addressTypeImp.cpp
+#include <iostream>
 #include "addressType.h"
 
-addressType::addressType(string street, string city, string state, string zip)
-    : streetAddress(street), city(city), state(state), zipCode(zip) {}
-
-void addressType::setAddress(string street, string city, string state, string zip) {
-    streetAddress = street;
-    city = city;
-    state = state;
-    zipCode = zip;
+void addressType::setAddress(std::string street, std::string city, std::string state, std::string zip) {
+   this->street = street;
+   this->city = city;
+   this->state = state;
+   this->zip = zip;
 }
 
-void addressType::printAddress() const {
-    cout << streetAddress << "\n" << city << ", " << state << " - " << zipCode << endl;
+std::string addressType::getStreet() const {
+   return street;
+}
+
+std::string addressType::getCity() const {
+   return city;
+}
+
+std::string addressType::getState() const {
+   return state;
+}
+
+std::string addressType::getZip() const {
+   return zip;
 }

@@ -1,36 +1,24 @@
-//personTypeImp.cpp
-  
-#include <iostream>
-#include <string>
-#include "personType.h" 
-  
-using namespace std;
+#include "personType.h"
+#include <iostream>  // For cout
 
-void personType::print() const
-{
-    cout << firstName << " " << lastName;
+personType::personType(std::string first, std::string last) {
+   firstName = first;
+   lastName = last;
 }
 
-void personType::setName(string first, string last)
-{
-    firstName = first;
-    lastName = last; 
+void personType::print() const {
+   std::cout << firstName << " " << lastName << "\n";  // Add newline here
 }
 
-string personType::getFirstName() const
-{
-    return firstName;
+void personType::setName(std::string first, std::string last) {
+   firstName = first;
+   lastName = last;
 }
 
-string personType::getLastName() const
-{
-    return lastName;
+std::string personType::getFirstName() const {
+   return firstName;
 }
 
-	//constructor
-personType::personType(string first, string last) 
-
-{ 
-    firstName = first;
-    lastName = last;
+std::string personType::getLastName() const {
+   return lastName;
 }

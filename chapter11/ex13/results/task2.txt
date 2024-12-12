@@ -3,52 +3,52 @@ Status: PASSED!
 Check: 1
 Test: Creating a checking account without error
 Reason: None
-Timestamp: 2024-12-12 03:38:13.454894
+Timestamp: 2024-12-12 03:41:39.210085
 
 Status: PASSED!
 Check: 2
 Test: `deposit` and `getBalance` member functions works as expected for the `checkingAccount` class
 Reason: None
-Timestamp: 2024-12-12 03:38:13.457510
+Timestamp: 2024-12-12 03:41:39.212793
 
 Status: PASSED!
 Check: 3
 Test: `withdraw` member function works as expected for the `checkingAccount` class
 Reason: None
-Timestamp: 2024-12-12 03:38:13.460012
+Timestamp: 2024-12-12 03:41:39.215320
 
 Status: PASSED!
 Check: 4
 Test: `checkingAccount` class can get and set the interest rate
 Reason: None
-Timestamp: 2024-12-12 03:38:13.462540
+Timestamp: 2024-12-12 03:41:39.217928
 
 Status: PASSED!
 Check: 5
 Test: `checkingAccount` class can set and get the minimum balance
 Reason: None
-Timestamp: 2024-12-12 03:38:13.465197
+Timestamp: 2024-12-12 03:41:39.220497
 
 Status: PASSED!
 Check: 6
 Test: `checkingAccount` class can set and get the service charge
 Reason: None
-Timestamp: 2024-12-12 03:38:13.467749
+Timestamp: 2024-12-12 03:41:39.223007
 
 Status: PASSED!
 Check: 7
 Test: The `checkingAccount` `withdraw` method denies a transaction when there are not enough funds in an account
 Reason: None
-Timestamp: 2024-12-12 03:38:13.470388
+Timestamp: 2024-12-12 03:41:39.225652
 
 Status: PASSED!
 Check: 8
 Test: `writeCheck` member  function of the `checkingAccount` class works as expected
 Reason: None
-Timestamp: 2024-12-12 03:38:13.472975
+Timestamp: 2024-12-12 03:41:39.228222
 
 Status: PASSED!
 Check: 9
 Test: `postInterest` member  function of the `checkingAccount` class works as expected
 Reason: None
-Timestamp: 2024-12-12 03:38:13.475461
+Timestamp: 2024-12-12 03:41:39.230758
